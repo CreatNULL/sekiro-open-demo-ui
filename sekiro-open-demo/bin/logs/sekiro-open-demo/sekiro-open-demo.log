@@ -1,0 +1,209 @@
+[2024-09-06 01:02:08,957 [main]  INFO c.i.s.b.netty.util.internal.PlatformDependent:101]  Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[2024-09-06 01:02:09,330 [main]  INFO cn.iinti.sekiro3.open.Bootstrap:75]  start sekiro netty server,port:5612
+[2024-09-06 01:02:09,331 [main]  INFO cn.iinti.sekiro3.open.Bootstrap:76]  welcome use sekiro framework, for more support please visit our website: https://iinti.cn/
+[2024-09-06 01:02:09,422 [sekiro-boss-1-1]  INFO cn.iinti.sekiro3.open.Bootstrap:80]  sekiro netty server start success
+[2024-09-06 10:41:48,090 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> new request from: [id: 0x8f5a2933, L:/127.0.0.1:5612 - R:/127.0.0.1:17048]
+[2024-09-06 10:41:48,103 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> matched by cn.iinti.sekiro3.open.detector.HttpMatcher
+[2024-09-06 10:41:48,159 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> http request
+[2024-09-06 10:41:48,512 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> replay-inbound: receive message: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+[2024-09-06 10:41:48,512 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> GET /getrecords.php?t=0.5337597492298012647 HTTP/1.1
+[2024-09-06 10:41:48,512 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> X-Real-IP: 127.0.0.1
+[2024-09-06 10:41:48,512 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> X-Forwarded-For: 127.0.0.1
+[2024-09-06 10:41:48,512 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> X-Forwarded-Proto: http
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Accept: */*
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Accept-Encoding: gzip, deflate
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Accept-Language: zh-CN,zh;q=0.9
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Cookie: PHPSESSID=8g78udjts2htojpatloaqsglb5
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Referer: http://dnslog.cn/
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> sekiro-demo: true
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Host: iinti.cn
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Connection: close
+[2024-09-06 10:41:48,513 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> replay-inbound: receive message: EmptyLastHttpContent
+[2024-09-06 10:41:48,547 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> replay-outbound: receive message: DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+[2024-09-06 10:41:48,547 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> HTTP/1.1 404 Not Found
+[2024-09-06 10:41:48,548 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Server: nginx/1.20.1
+[2024-09-06 10:41:48,548 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Date: Fri, 06 Sep 2024 02:41:48 GMT
+[2024-09-06 10:41:48,548 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Content-Type: text/html
+[2024-09-06 10:41:48,548 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Content-Length: 555
+[2024-09-06 10:41:48,548 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> Connection: close
+[2024-09-06 10:41:48,548 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> replay-outbound: receive message: DefaultLastHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 555, cap: 555/555, unwrapped: UnpooledHeapByteBuf(ridx: 705, widx: 705, cap: 1024)), decoderResult: success)
+[2024-09-06 10:41:48,550 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> user connection closed
+[2024-09-06 10:41:48,550 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> channel channelInactive
+[2024-09-06 10:41:48,550 [eventRecorder]  INFO EventTrace:147]  sessionId:449077b3-fcb0-4eba-8fd7-d917e6efd2e1 -> channel channelInactive
+[2024-09-06 17:53:43,129 [main]  INFO c.i.s.b.netty.util.internal.PlatformDependent:101]  Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[2024-09-06 17:53:43,395 [main]  INFO cn.iinti.sekiro3.open.Bootstrap:75]  start sekiro netty server,port:5612
+[2024-09-06 17:53:43,396 [main]  INFO cn.iinti.sekiro3.open.Bootstrap:76]  welcome use sekiro framework, for more support please visit our website: https://iinti.cn/
+[2024-09-06 17:53:43,483 [sekiro-boss-1-1]  INFO cn.iinti.sekiro3.open.Bootstrap:80]  sekiro netty server start success
+[2024-09-06 20:39:59,283 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> new request from: [id: 0x5a2a34c2, L:/127.0.0.1:5612 - R:/127.0.0.1:19430]
+[2024-09-06 20:39:59,297 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> matched by cn.iinti.sekiro3.open.detector.HttpMatcher
+[2024-09-06 20:39:59,348 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> http request
+[2024-09-06 20:39:59,359 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> connect upstream failed
+[2024-09-06 20:39:59,359 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> java.nio.channels.UnresolvedAddressException
+[2024-09-06 20:39:59,359 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at java.base/sun.nio.ch.Net.checkAddress(Net.java:149)
+[2024-09-06 20:39:59,359 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at java.base/sun.nio.ch.Net.checkAddress(Net.java:157)
+[2024-09-06 20:39:59,359 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:816)
+[2024-09-06 20:39:59,359 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:839)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.util.internal.SocketUtils$3.run(SocketUtils.java:83)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.util.internal.SocketUtils$3.run(SocketUtils.java:80)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.util.internal.SocketUtils.connect(SocketUtils.java:80)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.socket.nio.NioSocketChannel.doConnect(NioSocketChannel.java:243)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.connect(AbstractNioChannel.java:205)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.DefaultChannelPipeline$HeadContext.connect(DefaultChannelPipeline.java:1226)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:540)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:525)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.CombinedChannelDuplexHandler$DelegatingChannelHandlerContext.connect(CombinedChannelDuplexHandler.java:494)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.ChannelOutboundHandlerAdapter.connect(ChannelOutboundHandlerAdapter.java:47)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.CombinedChannelDuplexHandler.connect(CombinedChannelDuplexHandler.java:295)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.AbstractChannelHandlerContext.invokeConnect(AbstractChannelHandlerContext.java:540)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:525)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.AbstractChannelHandlerContext.connect(AbstractChannelHandlerContext.java:507)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.DefaultChannelPipeline.connect(DefaultChannelPipeline.java:970)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.AbstractChannel.connect(AbstractChannel.java:215)
+[2024-09-06 20:39:59,360 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.bootstrap.Bootstrap$2.run(Bootstrap.java:166)
+[2024-09-06 20:39:59,361 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:399)
+[2024-09-06 20:39:59,361 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:446)
+[2024-09-06 20:39:59,361 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:131)
+[2024-09-06 20:39:59,361 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at cn.iinti.sekiro3.business.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+[2024-09-06 20:39:59,361 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> 	at java.base/java.lang.Thread.run(Thread.java:833)
+[2024-09-06 20:39:59,364 [eventRecorder]  INFO EventTrace:147]  sessionId:41e2fc4d-9795-469a-b3e9-57f05a9f4ea8 -> user connection closed
+[2024-09-06 20:53:50,546 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> new request from: [id: 0xe3d7e26d, L:/127.0.0.1:5612 - R:/127.0.0.1:20702]
+[2024-09-06 20:53:50,547 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> matched by cn.iinti.sekiro3.open.detector.HttpMatcher
+[2024-09-06 20:53:50,547 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> http request
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> replay-inbound: receive message: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> GET / HTTP/1.1
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> X-Real-IP: 127.0.0.1
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> X-Forwarded-For: 127.0.0.1
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> X-Forwarded-Proto: http
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Cache-Control: max-age=0
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> sec-ch-ua-mobile: ?0
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> sec-ch-ua-platform: "Windows"
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Upgrade-Insecure-Requests: 1
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Sec-Fetch-Site: none
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Sec-Fetch-Mode: navigate
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Sec-Fetch-User: ?1
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Sec-Fetch-Dest: document
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Accept-Encoding: gzip, deflate, br, zstd
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Accept-Language: zh-CN,zh;q=0.9
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> sekiro-demo: true
+[2024-09-06 20:53:50,799 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Host: iinti.cn
+[2024-09-06 20:53:50,800 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Connection: close
+[2024-09-06 20:53:50,800 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> replay-inbound: receive message: EmptyLastHttpContent
+[2024-09-06 20:53:50,831 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> replay-outbound: receive message: DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+[2024-09-06 20:53:50,831 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> HTTP/1.1 200 OK
+[2024-09-06 20:53:50,832 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Server: nginx/1.20.1
+[2024-09-06 20:53:50,832 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Date: Fri, 06 Sep 2024 12:53:51 GMT
+[2024-09-06 20:53:50,832 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Content-Type: text/html
+[2024-09-06 20:53:50,832 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Content-Length: 214
+[2024-09-06 20:53:50,832 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Last-Modified: Sun, 28 Apr 2024 02:41:20 GMT
+[2024-09-06 20:53:50,832 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Connection: close
+[2024-09-06 20:53:50,833 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> ETag: "662db750-d6"
+[2024-09-06 20:53:50,833 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> Accept-Ranges: bytes
+[2024-09-06 20:53:50,834 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> replay-outbound: receive message: DefaultLastHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 214, cap: 214/214, unwrapped: UnpooledHeapByteBuf(ridx: 446, widx: 446, cap: 1024)), decoderResult: success)
+[2024-09-06 20:53:50,834 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> user connection closed
+[2024-09-06 20:53:50,834 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> channel channelInactive
+[2024-09-06 20:53:50,834 [eventRecorder]  INFO EventTrace:147]  sessionId:c857941b-0539-4172-855d-01c05c9fe31b -> channel channelInactive
+[2024-09-06 20:53:53,617 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> new request from: [id: 0x0c0b55dc, L:/127.0.0.1:5612 - R:/127.0.0.1:20815]
+[2024-09-06 20:53:53,617 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> matched by cn.iinti.sekiro3.open.detector.HttpMatcher
+[2024-09-06 20:53:53,617 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> http request
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-inbound: receive message: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> GET /js/jquery.min.js HTTP/1.1
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> X-Real-IP: 127.0.0.1
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> X-Forwarded-For: 127.0.0.1
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> X-Forwarded-Proto: http
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> sec-ch-ua: "Chromium";v="128", "Not;A=Brand";v="24", "Google Chrome";v="128"
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> sec-ch-ua-mobile: ?0
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> sec-ch-ua-platform: "Windows"
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Accept: */*
+[2024-09-06 20:53:53,650 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Sec-Fetch-Site: none
+[2024-09-06 20:53:53,651 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Sec-Fetch-Mode: cors
+[2024-09-06 20:53:53,651 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Sec-Fetch-Dest: empty
+[2024-09-06 20:53:53,651 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Accept-Encoding: gzip, deflate, br, zstd
+[2024-09-06 20:53:53,651 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Accept-Language: zh-CN,zh;q=0.9
+[2024-09-06 20:53:53,651 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> sekiro-demo: true
+[2024-09-06 20:53:53,651 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Host: iinti.cn
+[2024-09-06 20:53:53,651 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Connection: close
+[2024-09-06 20:53:53,651 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-inbound: receive message: EmptyLastHttpContent
+[2024-09-06 20:53:53,682 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> HTTP/1.1 200 OK
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Server: nginx/1.20.1
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Date: Fri, 06 Sep 2024 12:53:54 GMT
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Content-Type: application/javascript
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Content-Length: 89663
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Last-Modified: Sun, 28 Apr 2024 02:41:19 GMT
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Connection: close
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> ETag: "662db74f-15e3f"
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> Accept-Ranges: bytes
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 774, cap: 774/774, unwrapped: UnpooledHeapByteBuf(ridx: 1024, widx: 1024, cap: 1024)), decoderResult: success)
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1024, cap: 1024/1024, unwrapped: UnpooledHeapByteBuf(ridx: 1024, widx: 1024, cap: 1024)), decoderResult: success)
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1024, cap: 1024/1024, unwrapped: UnpooledHeapByteBuf(ridx: 1024, widx: 1024, cap: 1024)), decoderResult: success)
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1024, cap: 1024/1024, unwrapped: UnpooledHeapByteBuf(ridx: 1024, widx: 1024, cap: 1024)), decoderResult: success)
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1024, cap: 1024/1024, unwrapped: UnpooledHeapByteBuf(ridx: 1024, widx: 1024, cap: 1024)), decoderResult: success)
+[2024-09-06 20:53:53,683 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 528, cap: 528/528, unwrapped: UnpooledHeapByteBuf(ridx: 528, widx: 528, cap: 1024)), decoderResult: success)
+[2024-09-06 20:53:53,684 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 16384)), decoderResult: success)
+[2024-09-06 20:53:53,684 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 16384)), decoderResult: success)
+[2024-09-06 20:53:53,684 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 8192)), decoderResult: success)
+[2024-09-06 20:53:53,713 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 8192)), decoderResult: success)
+[2024-09-06 20:53:53,713 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1412, cap: 1412/1412, unwrapped: UnpooledHeapByteBuf(ridx: 1412, widx: 1412, cap: 8192)), decoderResult: success)
+[2024-09-06 20:53:53,713 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 8192)), decoderResult: success)
+[2024-09-06 20:53:53,713 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1412, cap: 1412/1412, unwrapped: UnpooledHeapByteBuf(ridx: 1412, widx: 1412, cap: 8192)), decoderResult: success)
+[2024-09-06 20:53:53,713 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,713 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,714 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,714 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,714 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1412, cap: 1412/1412, unwrapped: UnpooledHeapByteBuf(ridx: 1412, widx: 1412, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,715 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,715 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1412, cap: 1412/1412, unwrapped: UnpooledHeapByteBuf(ridx: 1412, widx: 1412, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,715 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,744 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 4096, cap: 4096/4096, unwrapped: UnpooledHeapByteBuf(ridx: 4096, widx: 4096, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,744 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1552, cap: 1552/1552, unwrapped: UnpooledHeapByteBuf(ridx: 1552, widx: 1552, cap: 4096)), decoderResult: success)
+[2024-09-06 20:53:53,745 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 8192, cap: 8192/8192, unwrapped: UnpooledHeapByteBuf(ridx: 8192, widx: 9884, cap: 65536)), decoderResult: success)
+[2024-09-06 20:53:53,745 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1692, cap: 1692/1692, unwrapped: UnpooledHeapByteBuf(ridx: 9884, widx: 9884, cap: 65536)), decoderResult: success)
+[2024-09-06 20:53:53,745 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1412, cap: 1412/1412, unwrapped: UnpooledHeapByteBuf(ridx: 1412, widx: 1412, cap: 65536)), decoderResult: success)
+[2024-09-06 20:53:53,745 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 32768)), decoderResult: success)
+[2024-09-06 20:53:53,745 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 7060, cap: 7060/7060, unwrapped: UnpooledHeapByteBuf(ridx: 7060, widx: 7060, cap: 32768)), decoderResult: success)
+[2024-09-06 20:53:53,745 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 1412, cap: 1412/1412, unwrapped: UnpooledHeapByteBuf(ridx: 1412, widx: 1412, cap: 16384)), decoderResult: success)
+[2024-09-06 20:53:53,745 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 5648, cap: 5648/5648, unwrapped: UnpooledHeapByteBuf(ridx: 5648, widx: 5648, cap: 16384)), decoderResult: success)
+[2024-09-06 20:53:53,746 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 16384)), decoderResult: success)
+[2024-09-06 20:53:53,746 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 8192)), decoderResult: success)
+[2024-09-06 20:53:53,746 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 2824, cap: 2824/2824, unwrapped: UnpooledHeapByteBuf(ridx: 2824, widx: 2824, cap: 8192)), decoderResult: success)
+[2024-09-06 20:53:53,746 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 4236, cap: 4236/4236, unwrapped: UnpooledHeapByteBuf(ridx: 4236, widx: 4236, cap: 8192)), decoderResult: success)
+[2024-09-06 20:53:53,747 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> replay-outbound: receive message: DefaultLastHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 957, cap: 957/957, unwrapped: UnpooledHeapByteBuf(ridx: 957, widx: 957, cap: 8192)), decoderResult: success)
+[2024-09-06 20:53:53,747 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> channel channelInactive
+[2024-09-06 20:53:53,747 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> user connection closed
+[2024-09-06 20:53:53,747 [eventRecorder]  INFO EventTrace:147]  sessionId:d9e318aa-e7fc-4a31-a306-841dbe4611b7 -> channel channelInactive
+[2024-09-06 20:53:54,537 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> new request from: [id: 0x87d03224, L:/127.0.0.1:5612 - R:/127.0.0.1:20829]
+[2024-09-06 20:53:54,538 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> matched by cn.iinti.sekiro3.open.detector.HttpMatcher
+[2024-09-06 20:53:54,538 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> http request
+[2024-09-06 20:53:54,567 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> replay-inbound: receive message: DefaultHttpRequest(decodeResult: success, version: HTTP/1.1)
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> GET /chrome-extension://kldhhobmmejaeaiilomaibhjlcfpceac/pagejsBaidu/pagejsBaidu.js HTTP/1.1
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> X-Real-IP: 127.0.0.1
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> X-Forwarded-For: 127.0.0.1
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> X-Forwarded-Proto: http
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> accept: */*
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Sec-Fetch-Site: cross-site
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Sec-Fetch-Mode: cors
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Sec-Fetch-Dest: empty
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Accept-Encoding: gzip, deflate, br, zstd
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Accept-Language: zh-CN,zh;q=0.9
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> sekiro-demo: true
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Host: iinti.cn
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Connection: close
+[2024-09-06 20:53:54,568 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> replay-inbound: receive message: EmptyLastHttpContent
+[2024-09-06 20:53:54,596 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> replay-outbound: receive message: DefaultHttpResponse(decodeResult: success, version: HTTP/1.1)
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> HTTP/1.1 404 Not Found
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Server: nginx/1.20.1
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Date: Fri, 06 Sep 2024 12:53:55 GMT
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Content-Type: text/html
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Content-Length: 555
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> Connection: close
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> replay-outbound: receive message: DefaultLastHttpContent(data: SlicedAbstractByteBuf(ridx: 0, widx: 555, cap: 555/555, unwrapped: UnpooledHeapByteBuf(ridx: 705, widx: 705, cap: 1024)), decoderResult: success)
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> channel channelInactive
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> user connection closed
+[2024-09-06 20:53:54,597 [eventRecorder]  INFO EventTrace:147]  sessionId:bc9e8cb3-8943-4f54-80d6-2f60d46d4fc2 -> channel channelInactive

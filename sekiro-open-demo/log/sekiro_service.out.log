@@ -1,0 +1,47 @@
+10:30:58,646 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+10:30:58,646 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/D:/My_Project/Idea_Project/Python/self_tools/sekiro-open-demo/conf/logback.xml]
+10:30:58,647 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs multiple times on the classpath.
+10:30:58,647 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [jar:file:/D:/My_Project/Idea_Project/Python/self_tools/sekiro-open-demo/lib/sekiro-open-demo-0.0.1.jar!/logback.xml]
+10:30:58,647 |-WARN in ch.qos.logback.classic.LoggerContext[default] - Resource [logback.xml] occurs at [file:/D:/My_Project/Idea_Project/Python/self_tools/sekiro-open-demo/conf/logback.xml]
+10:30:58,699 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+10:30:58,703 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Will scan for changes in [file:/D:/My_Project/Idea_Project/Python/self_tools/sekiro-open-demo/conf/logback.xml] 
+10:30:58,703 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - Setting ReconfigureOnChangeTask scanning period to 1 minutes
+10:30:58,706 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.sift.SiftingAppender]
+10:30:58,707 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [Sekiro]
+10:30:58,718 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.sift.MDCBasedDiscriminator] for [discriminator] property
+10:30:58,722 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.classic.AsyncAppender]
+10:30:58,723 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [asyncSekiro]
+10:30:58,723 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [Sekiro] to ch.qos.logback.classic.AsyncAppender[asyncSekiro]
+10:30:58,723 |-INFO in ch.qos.logback.classic.AsyncAppender[asyncSekiro] - Attaching appender named [Sekiro] to AsyncAppender.
+10:30:58,723 |-INFO in ch.qos.logback.classic.AsyncAppender[asyncSekiro] - Setting discardingThreshold to 100
+10:30:58,723 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:30:58,725 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+10:30:58,759 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@194706439 - Will use zip compression
+10:30:58,761 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@194706439 - Will use the pattern ./logs//sekiro-open-demo/sekiro-open-demo-%d{yyyy-MM-dd} for the active file
+10:30:58,764 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern './logs//sekiro-open-demo/sekiro-open-demo-%d{yyyy-MM-dd}.zip'.
+10:30:58,764 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+10:30:58,775 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Sep 03 10:30:24 GMT+08:00 2024
+10:30:58,776 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+10:30:58,789 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: ./logs//sekiro-open-demo/sekiro-open-demo.log
+10:30:58,789 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [./logs//sekiro-open-demo/sekiro-open-demo.log]
+10:30:58,790 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+10:30:58,790 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [ERROR]
+10:30:58,791 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@942518407 - Will use zip compression
+10:30:58,791 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@942518407 - Will use the pattern ./logs//sekiro-open-demo/sekiro-open-demo-error-%d{yyyy-MM-dd} for the active file
+10:30:58,792 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern './logs//sekiro-open-demo/sekiro-open-demo-error-%d{yyyy-MM-dd}.zip'.
+10:30:58,792 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+10:30:58,792 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Sat Aug 31 09:53:49 GMT+08:00 2024
+10:30:58,793 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+10:30:58,793 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ERROR] - Active log file name: ./logs//sekiro-open-demo/sekiro-open-demo-error.log
+10:30:58,793 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[ERROR] - File property is set to [./logs//sekiro-open-demo/sekiro-open-demo-error.log]
+10:30:58,793 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [Sekiro] to INFO
+10:30:58,793 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [Sekiro] to false
+10:30:58,794 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [asyncSekiro] to Logger[Sekiro]
+10:30:58,794 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+10:30:58,794 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+10:30:58,794 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [ERROR] to Logger[ROOT]
+10:30:58,794 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+10:30:58,794 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@73d4cc9e - Registering current configuration as safe fallback point
+
+welcome use sekiro framework, for more support please visit our website: https://iinti.cn/
+Terminate batch job (Y/N)? 

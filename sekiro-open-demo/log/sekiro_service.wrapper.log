@@ -1,0 +1,419 @@
+2024-09-02T21:53:12.084 INFO  console - Installing service 'Nginx Service for sekiro (nginx)'...
+2024-09-02T21:53:12.112 ERROR console - A service with ID 'nginx' already exists.
+2024-09-02T21:53:12.116 FATAL console - Failed to install the service. 指定的服务已存在。
+2024-09-02T22:21:47.165 INFO  console - Installing service 'sekiro Service (sekiro)'...
+2024-09-02T22:21:47.214 INFO  console - Service 'sekiro Service (sekiro)' was installed successfully.
+2024-09-03T00:29:54.289 DEBUG console - Starting WinSW in service mode.
+2024-09-03T00:29:54.333 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T00:29:54.376 INFO  service - Started process sekiro (23972).
+2024-09-03T00:29:54.402 INFO  service - Service started successfully.
+2024-09-03T00:30:00.363 INFO  service - Stopping sekiro
+2024-09-03T00:30:00.389 INFO  service - Started process sekiro (45948).
+2024-09-03T00:30:00.389 DEBUG service - WaitForProcessToExit 23972+45948
+2024-09-03T01:08:09.440 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:08:14.374 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:19:12.192 INFO  console - Uninstalling service 'sekiro Service (sekiro)'...
+2024-09-03T01:19:12.223 WARN  console - Service 'sekiro Service (sekiro)' is started. It may be impossible to uninstall it.
+2024-09-03T01:19:12.226 ERROR console - Failed to delete service. 指定的服务已标记为删除。
+2024-09-03T01:19:16.412 INFO  console - Uninstalling service 'sekiro Service (sekiro)'...
+2024-09-03T01:19:16.440 WARN  console - Service 'sekiro Service (sekiro)' is started. It may be impossible to uninstall it.
+2024-09-03T01:19:16.442 ERROR console - Failed to delete service. 指定的服务已标记为删除。
+2024-09-03T01:21:53.544 INFO  console - Uninstalling service 'sekiro Service (sekiro)'...
+2024-09-03T01:21:53.572 WARN  console - Service 'sekiro Service (sekiro)' is started. It may be impossible to uninstall it.
+2024-09-03T01:21:53.574 ERROR console - Failed to delete service. 指定的服务已标记为删除。
+2024-09-03T01:25:05.215 INFO  service - Finished sekiro
+2024-09-03T01:25:05.215 INFO  service - Service stopped successfully.
+2024-09-03T01:28:52.683 INFO  console - Installing service 'sekiro Service (sekiro)'...
+2024-09-03T01:28:52.718 INFO  console - Service 'sekiro Service (sekiro)' was installed successfully.
+2024-09-03T01:29:36.941 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:29:36.971 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:29:36.986 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:29:37.026 INFO  service - Started process sekiro (13712).
+2024-09-03T01:29:37.051 INFO  service - Service started successfully.
+2024-09-03T01:29:41.513 INFO  service - Stopping sekiro
+2024-09-03T01:29:41.536 INFO  service - Started process sekiro (15452).
+2024-09-03T01:29:41.537 DEBUG service - WaitForProcessToExit 13712+15452
+2024-09-03T01:33:09.799 DEBUG service - Found child process 'cmd (1300)'.
+2024-09-03T01:33:09.800 DEBUG service - Stopping process 'cmd (1300)'...
+2024-09-03T01:33:10.804 DEBUG service - Process 'cmd (1300)' terminated.
+2024-09-03T01:33:10.814 DEBUG service - Found child process 'cmd (19240)'.
+2024-09-03T01:33:10.814 DEBUG service - Stopping process 'cmd (19240)'...
+2024-09-03T01:33:25.817 DEBUG service - Process 'cmd (19240)' terminated.
+2024-09-03T01:33:25.821 INFO  service - Finished sekiro
+2024-09-03T01:33:25.822 INFO  service - Service stopped successfully.
+2024-09-03T01:36:50.627 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:36:50.660 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:36:50.676 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:36:50.713 INFO  service - Started process sekiro (12168).
+2024-09-03T01:36:50.739 INFO  service - Service started successfully.
+2024-09-03T01:37:03.307 INFO  service - Stopping sekiro
+2024-09-03T01:37:03.333 INFO  service - Started process sekiro (17004).
+2024-09-03T01:37:03.333 DEBUG service - WaitForProcessToExit 12168+17004
+2024-09-03T01:37:13.181 DEBUG service - Found child process 'cmd (21004)'.
+2024-09-03T01:37:13.183 DEBUG service - Stopping process 'cmd (21004)'...
+2024-09-03T01:37:14.199 DEBUG service - Process 'cmd (21004)' terminated.
+2024-09-03T01:37:14.209 DEBUG service - Found child process 'cmd (6016)'.
+2024-09-03T01:37:14.209 DEBUG service - Stopping process 'cmd (6016)'...
+2024-09-03T01:37:29.218 DEBUG service - Process 'cmd (6016)' terminated.
+2024-09-03T01:37:29.222 INFO  service - Finished sekiro
+2024-09-03T01:37:29.223 INFO  service - Service stopped successfully.
+2024-09-03T01:37:40.972 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:37:41.003 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:37:41.020 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:37:41.056 INFO  service - Started process sekiro (9092).
+2024-09-03T01:37:41.080 INFO  service - Service started successfully.
+2024-09-03T01:37:58.400 INFO  service - Stopping sekiro
+2024-09-03T01:37:58.426 INFO  service - Started process sekiro (7360).
+2024-09-03T01:37:58.426 DEBUG service - WaitForProcessToExit 9092+7360
+2024-09-03T01:38:19.732 DEBUG service - Found child process 'cmd (3856)'.
+2024-09-03T01:38:19.734 DEBUG service - Stopping process 'cmd (3856)'...
+2024-09-03T01:38:20.739 DEBUG service - Process 'cmd (3856)' terminated.
+2024-09-03T01:38:20.749 DEBUG service - Found child process 'cmd (8076)'.
+2024-09-03T01:38:20.750 DEBUG service - Stopping process 'cmd (8076)'...
+2024-09-03T01:38:35.756 DEBUG service - Process 'cmd (8076)' terminated.
+2024-09-03T01:38:35.761 INFO  service - Finished sekiro
+2024-09-03T01:38:35.762 INFO  service - Service stopped successfully.
+2024-09-03T01:38:46.425 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:38:46.457 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:38:46.473 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:38:46.511 INFO  service - Started process sekiro (1196).
+2024-09-03T01:38:46.535 INFO  service - Service started successfully.
+2024-09-03T01:39:03.262 INFO  service - Stopping sekiro
+2024-09-03T01:39:03.287 INFO  service - Started process sekiro (19336).
+2024-09-03T01:39:03.287 DEBUG service - WaitForProcessToExit 1196+19336
+2024-09-03T01:39:34.454 DEBUG service - Found child process 'cmd (6696)'.
+2024-09-03T01:39:34.455 DEBUG service - Stopping process 'cmd (6696)'...
+2024-09-03T01:39:35.469 DEBUG service - Process 'cmd (6696)' terminated.
+2024-09-03T01:39:35.479 DEBUG service - Found child process 'cmd (9076)'.
+2024-09-03T01:39:35.479 DEBUG service - Stopping process 'cmd (9076)'...
+2024-09-03T01:39:50.495 DEBUG service - Process 'cmd (9076)' terminated.
+2024-09-03T01:39:50.499 INFO  service - Finished sekiro
+2024-09-03T01:39:50.500 INFO  service - Service stopped successfully.
+2024-09-03T01:45:05.527 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:45:05.558 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:45:05.574 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:45:05.612 INFO  service - Started process sekiro (20320).
+2024-09-03T01:45:05.637 INFO  service - Service started successfully.
+2024-09-03T01:45:08.464 INFO  service - Stopping sekiro
+2024-09-03T01:45:08.490 INFO  service - Started process sekiro (4640).
+2024-09-03T01:45:08.491 DEBUG service - WaitForProcessToExit 20320+4640
+2024-09-03T01:45:15.947 DEBUG service - Found child process 'cmd (2528)'.
+2024-09-03T01:45:15.948 DEBUG service - Stopping process 'cmd (2528)'...
+2024-09-03T01:45:16.959 DEBUG service - Process 'cmd (2528)' terminated.
+2024-09-03T01:45:16.970 DEBUG service - Found child process 'cmd (20588)'.
+2024-09-03T01:45:16.970 DEBUG service - Stopping process 'cmd (20588)'...
+2024-09-03T01:45:31.977 DEBUG service - Process 'cmd (20588)' terminated.
+2024-09-03T01:45:31.982 INFO  service - Finished sekiro
+2024-09-03T01:45:31.982 INFO  service - Service stopped successfully.
+2024-09-03T01:47:24.139 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:47:24.170 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:47:24.186 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:47:24.224 INFO  service - Started process sekiro (3060).
+2024-09-03T01:47:24.249 INFO  service - Service started successfully.
+2024-09-03T01:47:26.896 INFO  service - Stopping sekiro
+2024-09-03T01:47:26.922 INFO  service - Started process sekiro (21636).
+2024-09-03T01:47:26.923 DEBUG service - WaitForProcessToExit 3060+21636
+2024-09-03T01:49:29.960 DEBUG service - Found child process 'cmd (3180)'.
+2024-09-03T01:49:29.961 DEBUG service - Stopping process 'cmd (3180)'...
+2024-09-03T01:49:30.963 DEBUG service - Process 'cmd (3180)' terminated.
+2024-09-03T01:49:30.974 DEBUG service - Found child process 'cmd (20520)'.
+2024-09-03T01:49:30.975 DEBUG service - Stopping process 'cmd (20520)'...
+2024-09-03T01:49:45.977 DEBUG service - Process 'cmd (20520)' terminated.
+2024-09-03T01:49:45.982 INFO  service - Finished sekiro
+2024-09-03T01:49:45.982 INFO  service - Service stopped successfully.
+2024-09-03T01:49:52.376 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:49:52.412 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:49:52.429 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:49:52.467 INFO  service - Started process sekiro (3596).
+2024-09-03T01:49:52.493 INFO  service - Service started successfully.
+2024-09-03T01:50:06.899 INFO  service - Stopping sekiro
+2024-09-03T01:50:06.925 INFO  service - Started process sekiro (2336).
+2024-09-03T01:50:06.925 DEBUG service - WaitForProcessToExit 3596+2336
+2024-09-03T01:50:13.664 DEBUG service - Found child process 'cmd (5004)'.
+2024-09-03T01:50:13.665 DEBUG service - Stopping process 'cmd (5004)'...
+2024-09-03T01:50:14.680 DEBUG service - Process 'cmd (5004)' terminated.
+2024-09-03T01:50:14.688 DEBUG service - Found child process 'cmd (8796)'.
+2024-09-03T01:50:14.688 DEBUG service - Stopping process 'cmd (8796)'...
+2024-09-03T01:50:29.699 DEBUG service - Process 'cmd (8796)' terminated.
+2024-09-03T01:50:29.706 INFO  service - Finished sekiro
+2024-09-03T01:50:29.707 INFO  service - Service stopped successfully.
+2024-09-03T01:50:30.045 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:50:30.077 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:50:30.093 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:50:30.133 INFO  service - Started process sekiro (12644).
+2024-09-03T01:50:30.157 INFO  service - Service started successfully.
+2024-09-03T01:50:46.958 INFO  service - Stopping sekiro
+2024-09-03T01:50:46.984 INFO  service - Started process sekiro (13832).
+2024-09-03T01:50:46.984 DEBUG service - WaitForProcessToExit 12644+13832
+2024-09-03T01:50:47.206 DEBUG service - Found child process 'cmd (9136)'.
+2024-09-03T01:50:47.208 DEBUG service - Stopping process 'cmd (9136)'...
+2024-09-03T01:50:48.221 DEBUG service - Process 'cmd (9136)' terminated.
+2024-09-03T01:50:48.231 DEBUG service - Found child process 'cmd (8032)'.
+2024-09-03T01:50:48.232 DEBUG service - Stopping process 'cmd (8032)'...
+2024-09-03T01:51:03.243 DEBUG service - Process 'cmd (8032)' terminated.
+2024-09-03T01:51:03.248 INFO  service - Finished sekiro
+2024-09-03T01:51:03.248 INFO  service - Service stopped successfully.
+2024-09-03T01:51:47.680 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:51:47.712 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:51:47.729 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:51:47.767 INFO  service - Started process sekiro (4396).
+2024-09-03T01:51:47.791 INFO  service - Service started successfully.
+2024-09-03T01:51:48.255 INFO  service - Stopping sekiro
+2024-09-03T01:51:48.281 INFO  service - Started process sekiro (3268).
+2024-09-03T01:51:48.282 DEBUG service - WaitForProcessToExit 4396+3268
+2024-09-03T01:51:49.690 DEBUG service - Found child process 'cmd (3620)'.
+2024-09-03T01:51:49.691 DEBUG service - Stopping process 'cmd (3620)'...
+2024-09-03T01:51:50.699 DEBUG service - Process 'cmd (3620)' terminated.
+2024-09-03T01:51:50.709 DEBUG service - Found child process 'cmd (13348)'.
+2024-09-03T01:51:50.710 DEBUG service - Stopping process 'cmd (13348)'...
+2024-09-03T01:52:05.711 DEBUG service - Process 'cmd (13348)' terminated.
+2024-09-03T01:52:05.716 INFO  service - Finished sekiro
+2024-09-03T01:52:05.716 INFO  service - Service stopped successfully.
+2024-09-03T01:52:09.994 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:52:10.028 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:52:10.045 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:52:10.083 INFO  service - Started process sekiro (17092).
+2024-09-03T01:52:10.108 INFO  service - Service started successfully.
+2024-09-03T01:52:18.473 INFO  service - Stopping sekiro
+2024-09-03T01:52:18.498 INFO  service - Started process sekiro (13804).
+2024-09-03T01:52:18.498 DEBUG service - WaitForProcessToExit 17092+13804
+2024-09-03T01:52:21.191 DEBUG service - Found child process 'cmd (1748)'.
+2024-09-03T01:52:21.192 DEBUG service - Stopping process 'cmd (1748)'...
+2024-09-03T01:52:22.196 DEBUG service - Process 'cmd (1748)' terminated.
+2024-09-03T01:52:22.206 DEBUG service - Found child process 'cmd (4044)'.
+2024-09-03T01:52:22.207 DEBUG service - Stopping process 'cmd (4044)'...
+2024-09-03T01:52:37.211 DEBUG service - Process 'cmd (4044)' terminated.
+2024-09-03T01:52:37.216 INFO  service - Finished sekiro
+2024-09-03T01:52:37.216 INFO  service - Service stopped successfully.
+2024-09-03T01:52:47.584 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:52:47.616 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:52:47.632 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:52:47.668 INFO  service - Started process sekiro (14012).
+2024-09-03T01:52:47.693 INFO  service - Service started successfully.
+2024-09-03T01:53:18.733 INFO  service - Stopping sekiro
+2024-09-03T01:53:18.757 INFO  service - Started process sekiro (11652).
+2024-09-03T01:53:18.757 DEBUG service - WaitForProcessToExit 14012+11652
+2024-09-03T01:53:19.020 DEBUG service - Found child process 'cmd (8844)'.
+2024-09-03T01:53:19.021 DEBUG service - Stopping process 'cmd (8844)'...
+2024-09-03T01:53:20.030 DEBUG service - Process 'cmd (8844)' terminated.
+2024-09-03T01:53:20.038 DEBUG service - Found child process 'cmd (17684)'.
+2024-09-03T01:53:20.038 DEBUG service - Stopping process 'cmd (17684)'...
+2024-09-03T01:53:35.047 DEBUG service - Process 'cmd (17684)' terminated.
+2024-09-03T01:53:35.053 INFO  service - Finished sekiro
+2024-09-03T01:53:35.053 INFO  service - Service stopped successfully.
+2024-09-03T01:54:18.502 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:54:18.533 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:54:18.570 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:54:18.606 INFO  service - Started process sekiro (4160).
+2024-09-03T01:54:18.633 INFO  service - Service started successfully.
+2024-09-03T01:54:25.432 INFO  service - Stopping sekiro
+2024-09-03T01:54:25.455 INFO  service - Started process sekiro (17204).
+2024-09-03T01:54:25.455 DEBUG service - WaitForProcessToExit 4160+17204
+2024-09-03T01:54:35.313 DEBUG service - Found child process 'cmd (3196)'.
+2024-09-03T01:54:35.314 DEBUG service - Stopping process 'cmd (3196)'...
+2024-09-03T01:54:36.319 DEBUG service - Process 'cmd (3196)' terminated.
+2024-09-03T01:54:36.329 DEBUG service - Found child process 'cmd (4140)'.
+2024-09-03T01:54:36.330 DEBUG service - Stopping process 'cmd (4140)'...
+2024-09-03T01:54:51.340 DEBUG service - Process 'cmd (4140)' terminated.
+2024-09-03T01:54:51.345 INFO  service - Finished sekiro
+2024-09-03T01:54:51.345 INFO  service - Service stopped successfully.
+2024-09-03T01:54:54.507 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:54:54.537 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:54:54.552 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:54:54.588 INFO  service - Started process sekiro (13544).
+2024-09-03T01:54:54.613 INFO  service - Service started successfully.
+2024-09-03T01:57:22.198 INFO  service - Stopping sekiro
+2024-09-03T01:57:22.221 INFO  service - Started process sekiro (16832).
+2024-09-03T01:57:22.221 DEBUG service - WaitForProcessToExit 13544+16832
+2024-09-03T01:57:28.014 DEBUG service - Found child process 'cmd (21164)'.
+2024-09-03T01:57:28.015 DEBUG service - Stopping process 'cmd (21164)'...
+2024-09-03T01:57:29.019 DEBUG service - Process 'cmd (21164)' terminated.
+2024-09-03T01:57:29.030 DEBUG service - Found child process 'cmd (1812)'.
+2024-09-03T01:57:29.031 DEBUG service - Stopping process 'cmd (1812)'...
+2024-09-03T01:57:44.041 DEBUG service - Process 'cmd (1812)' terminated.
+2024-09-03T01:57:44.046 INFO  service - Finished sekiro
+2024-09-03T01:57:44.046 INFO  service - Service stopped successfully.
+2024-09-03T01:57:44.520 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:57:44.551 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:57:44.567 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:57:44.603 INFO  service - Started process sekiro (7320).
+2024-09-03T01:57:44.628 INFO  service - Service started successfully.
+2024-09-03T01:57:52.079 INFO  service - Stopping sekiro
+2024-09-03T01:57:52.102 INFO  service - Started process sekiro (18868).
+2024-09-03T01:57:52.103 DEBUG service - WaitForProcessToExit 7320+18868
+2024-09-03T01:58:01.967 DEBUG service - Found child process 'cmd (18216)'.
+2024-09-03T01:58:01.969 DEBUG service - Stopping process 'cmd (18216)'...
+2024-09-03T01:58:02.978 DEBUG service - Process 'cmd (18216)' terminated.
+2024-09-03T01:58:02.988 DEBUG service - Found child process 'cmd (10524)'.
+2024-09-03T01:58:02.989 DEBUG service - Stopping process 'cmd (10524)'...
+2024-09-03T01:58:17.998 DEBUG service - Process 'cmd (10524)' terminated.
+2024-09-03T01:58:18.002 INFO  service - Finished sekiro
+2024-09-03T01:58:18.003 INFO  service - Service stopped successfully.
+2024-09-03T01:58:42.749 DEBUG console - Starting WinSW in service mode.
+2024-09-03T01:58:42.780 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T01:58:42.796 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T01:58:42.832 INFO  service - Started process sekiro (20184).
+2024-09-03T01:58:42.856 INFO  service - Service started successfully.
+2024-09-03T01:59:02.917 INFO  service - Stopping sekiro
+2024-09-03T01:59:02.939 INFO  service - Started process sekiro (15812).
+2024-09-03T01:59:02.940 DEBUG service - WaitForProcessToExit 20184+15812
+2024-09-03T09:40:39.527 DEBUG service - Found child process 'cmd (20020)'.
+2024-09-03T09:40:39.528 DEBUG service - Stopping process 'cmd (20020)'...
+2024-09-03T09:40:40.537 DEBUG service - Process 'cmd (20020)' terminated.
+2024-09-03T09:40:40.547 DEBUG service - Found child process 'cmd (1156)'.
+2024-09-03T09:40:40.548 DEBUG service - Stopping process 'cmd (1156)'...
+2024-09-03T09:40:55.554 DEBUG service - Process 'cmd (1156)' terminated.
+2024-09-03T09:40:55.559 INFO  service - Finished sekiro
+2024-09-03T09:40:55.559 INFO  service - Service stopped successfully.
+2024-09-03T10:14:06.348 INFO  console - Installing service 'sekiro Service (sekiro)'...
+2024-09-03T10:14:06.385 INFO  console - Service 'sekiro Service (sekiro)' was installed successfully.
+2024-09-03T10:14:14.149 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:14:14.182 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:14:14.198 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:14:14.235 INFO  service - Started process sekiro (3996).
+2024-09-03T10:14:14.260 INFO  service - Service started successfully.
+2024-09-03T10:14:17.760 INFO  service - Stopping sekiro
+2024-09-03T10:14:17.783 INFO  service - Started process sekiro (5740).
+2024-09-03T10:14:17.784 DEBUG service - WaitForProcessToExit 3996+5740
+2024-09-03T10:14:23.231 DEBUG service - Found child process 'cmd (17828)'.
+2024-09-03T10:14:23.233 DEBUG service - Stopping process 'cmd (17828)'...
+2024-09-03T10:14:24.240 DEBUG service - Process 'cmd (17828)' terminated.
+2024-09-03T10:14:24.254 DEBUG service - Found child process 'cmd (5704)'.
+2024-09-03T10:14:24.254 DEBUG service - Stopping process 'cmd (5704)'...
+2024-09-03T10:14:39.260 DEBUG service - Process 'cmd (5704)' terminated.
+2024-09-03T10:14:39.264 INFO  service - Finished sekiro
+2024-09-03T10:14:39.265 INFO  service - Service stopped successfully.
+2024-09-03T10:15:27.388 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:15:27.419 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:15:27.435 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:15:27.471 INFO  service - Started process sekiro (4468).
+2024-09-03T10:15:27.496 INFO  service - Service started successfully.
+2024-09-03T10:15:34.466 WARN  service - Child process 'sekiro (4468)' finished with code 1.
+2024-09-03T10:15:34.477 DEBUG service - Found child process 'cmd (18216)'.
+2024-09-03T10:15:34.478 DEBUG service - Stopping process 'cmd (18216)'...
+2024-09-03T10:15:44.245 INFO  service - Stopping sekiro
+2024-09-03T10:15:49.486 DEBUG service - Process 'cmd (18216)' terminated.
+2024-09-03T10:16:14.288 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:16:14.321 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:16:14.336 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:16:14.373 INFO  service - Started process sekiro (14328).
+2024-09-03T10:16:14.398 INFO  service - Service started successfully.
+2024-09-03T10:16:47.922 WARN  service - Child process 'sekiro (14328)' finished with code 1.
+2024-09-03T10:16:47.933 DEBUG service - Found child process 'cmd (10896)'.
+2024-09-03T10:16:47.934 DEBUG service - Stopping process 'cmd (10896)'...
+2024-09-03T10:16:53.609 INFO  service - Stopping sekiro
+2024-09-03T10:17:02.949 DEBUG service - Process 'cmd (10896)' terminated.
+2024-09-03T10:19:05.351 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:19:05.382 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:19:05.431 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:19:05.468 INFO  service - Started process sekiro (20768).
+2024-09-03T10:19:05.493 INFO  service - Service started successfully.
+2024-09-03T10:19:27.669 INFO  service - Stopping sekiro
+2024-09-03T10:19:27.693 INFO  service - Started process sekiro (21356).
+2024-09-03T10:19:27.693 DEBUG service - WaitForProcessToExit 20768+21356
+2024-09-03T10:20:10.181 DEBUG service - Found child process 'cmd (9056)'.
+2024-09-03T10:20:10.183 DEBUG service - Stopping process 'cmd (9056)'...
+2024-09-03T10:20:11.187 DEBUG service - Process 'cmd (9056)' terminated.
+2024-09-03T10:20:11.198 DEBUG service - Found child process 'cmd (14488)'.
+2024-09-03T10:20:11.198 DEBUG service - Stopping process 'cmd (14488)'...
+2024-09-03T10:20:26.213 DEBUG service - Process 'cmd (14488)' terminated.
+2024-09-03T10:20:26.218 INFO  service - Finished sekiro
+2024-09-03T10:20:26.219 INFO  service - Service stopped successfully.
+2024-09-03T10:20:33.190 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:20:33.221 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:20:33.236 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:20:33.273 INFO  service - Started process sekiro (19524).
+2024-09-03T10:20:33.297 INFO  service - Service started successfully.
+2024-09-03T10:20:37.301 INFO  service - Stopping sekiro
+2024-09-03T10:20:37.324 INFO  service - Started process sekiro (13820).
+2024-09-03T10:20:37.324 DEBUG service - WaitForProcessToExit 19524+13820
+2024-09-03T10:21:57.699 DEBUG service - Found child process 'cmd (18128)'.
+2024-09-03T10:21:57.700 DEBUG service - Stopping process 'cmd (18128)'...
+2024-09-03T10:21:58.706 DEBUG service - Process 'cmd (18128)' terminated.
+2024-09-03T10:21:58.717 DEBUG service - Found child process 'cmd (7264)'.
+2024-09-03T10:21:58.718 DEBUG service - Stopping process 'cmd (7264)'...
+2024-09-03T10:22:13.727 DEBUG service - Process 'cmd (7264)' terminated.
+2024-09-03T10:22:13.732 INFO  service - Finished sekiro
+2024-09-03T10:22:13.732 INFO  service - Service stopped successfully.
+2024-09-03T10:22:16.841 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:22:16.874 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:22:16.914 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:22:16.955 INFO  service - Started process sekiro (8632).
+2024-09-03T10:22:16.983 INFO  service - Service started successfully.
+2024-09-03T10:22:40.183 INFO  service - Stopping sekiro
+2024-09-03T10:22:40.206 INFO  service - Started process sekiro (6300).
+2024-09-03T10:22:40.206 DEBUG service - WaitForProcessToExit 8632+6300
+2024-09-03T10:22:47.252 DEBUG service - Found child process 'cmd (17372)'.
+2024-09-03T10:22:47.253 DEBUG service - Stopping process 'cmd (17372)'...
+2024-09-03T10:22:48.266 DEBUG service - Process 'cmd (17372)' terminated.
+2024-09-03T10:22:48.277 DEBUG service - Found child process 'cmd (10532)'.
+2024-09-03T10:22:48.277 DEBUG service - Stopping process 'cmd (10532)'...
+2024-09-03T10:23:03.287 DEBUG service - Process 'cmd (10532)' terminated.
+2024-09-03T10:23:03.292 INFO  service - Finished sekiro
+2024-09-03T10:23:03.293 INFO  service - Service stopped successfully.
+2024-09-03T10:23:08.661 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:23:08.692 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:23:08.707 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:23:08.743 INFO  service - Started process sekiro (16060).
+2024-09-03T10:23:08.767 INFO  service - Service started successfully.
+2024-09-03T10:23:13.005 INFO  service - Stopping sekiro
+2024-09-03T10:23:13.030 INFO  service - Started process sekiro (5700).
+2024-09-03T10:23:13.030 DEBUG service - WaitForProcessToExit 16060+5700
+2024-09-03T10:23:20.300 DEBUG service - Found child process 'cmd (19920)'.
+2024-09-03T10:23:20.301 DEBUG service - Stopping process 'cmd (19920)'...
+2024-09-03T10:23:21.306 DEBUG service - Process 'cmd (19920)' terminated.
+2024-09-03T10:23:21.317 DEBUG service - Found child process 'cmd (20844)'.
+2024-09-03T10:23:21.317 DEBUG service - Stopping process 'cmd (20844)'...
+2024-09-03T10:23:36.329 DEBUG service - Process 'cmd (20844)' terminated.
+2024-09-03T10:23:36.335 INFO  service - Finished sekiro
+2024-09-03T10:23:36.335 INFO  service - Service stopped successfully.
+2024-09-03T10:23:52.954 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:23:52.986 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:23:53.002 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:23:53.037 INFO  service - Started process sekiro (11908).
+2024-09-03T10:23:53.061 INFO  service - Service started successfully.
+2024-09-03T10:24:00.580 INFO  service - Stopping sekiro
+2024-09-03T10:24:00.603 INFO  service - Started process sekiro (9556).
+2024-09-03T10:24:00.603 DEBUG service - WaitForProcessToExit 11908+9556
+2024-09-03T10:24:24.831 DEBUG service - Found child process 'cmd (8084)'.
+2024-09-03T10:24:24.832 DEBUG service - Stopping process 'cmd (8084)'...
+2024-09-03T10:24:25.838 DEBUG service - Process 'cmd (8084)' terminated.
+2024-09-03T10:24:25.852 DEBUG service - Found child process 'cmd (20024)'.
+2024-09-03T10:24:25.852 DEBUG service - Stopping process 'cmd (20024)'...
+2024-09-03T10:24:40.859 DEBUG service - Process 'cmd (20024)' terminated.
+2024-09-03T10:24:40.863 INFO  service - Finished sekiro
+2024-09-03T10:24:40.864 INFO  service - Service stopped successfully.
+2024-09-03T10:30:21.721 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:30:21.752 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:30:21.767 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:30:21.804 INFO  service - Started process sekiro (3596).
+2024-09-03T10:30:21.829 INFO  service - Service started successfully.
+2024-09-03T10:30:24.462 INFO  service - Stopping sekiro
+2024-09-03T10:30:24.485 INFO  service - Started process sekiro (13500).
+2024-09-03T10:30:24.486 DEBUG service - WaitForProcessToExit 3596+13500
+2024-09-03T10:30:27.050 DEBUG service - Found child process 'cmd (8168)'.
+2024-09-03T10:30:27.052 DEBUG service - Stopping process 'cmd (8168)'...
+2024-09-03T10:30:28.066 DEBUG service - Process 'cmd (8168)' terminated.
+2024-09-03T10:30:28.077 DEBUG service - Found child process 'cmd (11648)'.
+2024-09-03T10:30:28.077 DEBUG service - Stopping process 'cmd (11648)'...
+2024-09-03T10:30:43.091 DEBUG service - Process 'cmd (11648)' terminated.
+2024-09-03T10:30:43.096 INFO  service - Finished sekiro
+2024-09-03T10:30:43.097 INFO  service - Service stopped successfully.
+2024-09-03T10:30:58.455 DEBUG console - Starting WinSW in service mode.
+2024-09-03T10:30:58.487 INFO  console - Service 'sekiro Service (sekiro)' was refreshed successfully.
+2024-09-03T10:30:58.502 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro.exe
+2024-09-03T10:30:58.538 INFO  service - Started process sekiro (1724).
+2024-09-03T10:30:58.562 INFO  service - Service started successfully.
+2024-09-03T10:31:03.493 INFO  service - Stopping sekiro
+2024-09-03T10:31:03.516 INFO  service - Started process sekiro (12608).
+2024-09-03T10:31:03.516 DEBUG service - WaitForProcessToExit 1724+12608
+2024-09-03T10:31:13.166 DEBUG service - Found child process 'cmd (21780)'.
+2024-09-03T10:31:13.167 DEBUG service - Stopping process 'cmd (21780)'...
+2024-09-03T10:31:14.176 DEBUG service - Process 'cmd (21780)' terminated.
+2024-09-03T10:31:14.187 DEBUG service - Found child process 'cmd (7208)'.
+2024-09-03T10:31:14.187 DEBUG service - Stopping process 'cmd (7208)'...
+2024-09-03T10:31:29.199 DEBUG service - Process 'cmd (7208)' terminated.
+2024-09-03T10:31:29.208 INFO  service - Finished sekiro
+2024-09-03T10:31:29.208 INFO  service - Service stopped successfully.
+2024-09-03T10:48:41.101 INFO  console - Installing service 'sekiro Service (sekiro)'...
+2024-09-03T10:48:41.136 INFO  console - Service 'sekiro Service (sekiro)' was installed successfully.

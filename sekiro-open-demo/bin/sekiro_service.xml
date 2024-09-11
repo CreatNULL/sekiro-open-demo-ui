@@ -1,0 +1,11 @@
+
+<service>
+    <id>sekiro</id>
+    <name>sekiro Service</name>
+    <description>sekiro Service</description>
+    <logpath>D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\log</logpath>
+    <logmode>roll</logmode>
+    <executable>C:\Users\23756\AppData\Local\Programs\Python\Python38\python.exe</executable>
+    <startarguments>D:\My_Project\Idea_Project\Python\self_tools\sekiro-open-demo\bin\sekiro_by_gpt.py"</startarguments>
+    <stoparguments>-s stop</stoparguments>
+</service>
