@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>配置页面</title>
+    <title>{{ title }}</title>
+    {% for js_file in js_files %}
+        <script src="{{ url_for('static', filename=js_file) }}"></script>
+    {% endfor %}
+    {% for css_file in css_files %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename=css_file) }}" />
+    {% endfor %}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input[type="text"],
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-group textarea {
+            width: 100%;
+            height: 150px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+        .form-group button {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #0056b3;
+        }
+        #codeDisplay {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f5f5f5;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 400px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 14px;
+            color: #333;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            line-height: 1.5;
+        }
+        .copy-btn {
+            margin-top: 10px;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            background-color: #28a745;
+            color: #fff;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .copy-btn:hover {
+            background-color: #218838;
+        }
+        #codeDisplay {
+            overflow: auto; /* 允许滚动 */
+            scrollbar-width: none; /* 隐藏滚动条（适用于 Firefox） */
+        }
+
+        #codeDisplay::-webkit-scrollbar {
+            display: none; /* 隐藏滚动条（适用于 Webkit 浏览器） */
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>配置表单</h1>
+    <form id="configForm">
+        <div class="form-group">
+            <label for="protocol">协议:</label>
+            <select id="protocol" name="protocol">
+                <option value="ws">WS</option>
+                <option value="wss">WSS</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="host">主机或 IP:</label>
+            <input type="text" id="host" name="host" placeholder="输入主机或 IP" value="127.0.0.1">
+        </div>
+        <div class="form-group">
+            <label for="port">端口:</label>
+            <input type="text" id="port" name="port" placeholder="端口" value="80">
+        </div>
+        <div class="form-group">
+            <label for="group">组:</label>
+            <input type="text" id="group" name="group" placeholder="输入组名" value="test-web">
+        </div>
+        <div class="form-group">
+            <label for="clientId">客户端 ID:</label>
+            <input type="text" id="clientId" name="clientId" placeholder="输入客户端 ID">
+        </div>
+        <div class="form-group">
+            <label for="code">注入函数代码:</label>
+            <textarea id="code" name="code" placeholder="在此输入函数代码..."></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">提交</button>
+        </div>
+    </form>
+    <div id="codeDisplay" style="display:none;">
+        <button class="copy-btn" id="copyBtn">复制代码</button>
+        <pre id="codeContent"></pre>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function() {
+        $('#configForm').on('submit', function(event) {
+            event.preventDefault();
+
+            let formData = $(this).serialize();
+
+            $.post({
+                url: '{{create_tampermonkey_js_api}}',
+                data: formData,
+                success: function(response) {
+                    if (response.script) {
+                        $('#codeContent').text(response.script);
+                        $('#codeDisplay').show();
+                    } else {
+                        alert('生成脚本失败: ' + response.error);
+                    }
+                },
+                error: function() {
+                    alert('请求失败!');
+                }
+            });
+        });
+
+        // 复制功能
+        $('#copyBtn').on('click', function() {
+            let code = document.getElementById('codeContent').innerText;
+            navigator.clipboard.writeText(code).then(function() {
+                alert('代码已复制到剪贴板!');
+            }, function(err) {
+                alert('复制失败: ' + err);
+            });
+        });
+    });
+</script>
+
+<!-- 初始化 CodeMirror -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var codeMirror = CodeMirror.fromTextArea(document.getElementById('code'), {
+            mode: 'javascript',
+            lineNumbers: true,
+            matchBrackets: true,
+            autoCloseBrackets: true,
+            extraKeys: {"Ctrl-Space": "autocomplete"}
+        });
+
+        // 随机数生成， 提供给 clientId 作为默认值
+        function generateRandomValue() {
+            return Math.floor(Math.random() * 1000000); // 生成 0 到 999999 之间的随机整数
+        }
+        document.getElementById('clientId').value = generateRandomValue();
+
+        // 依据选择的协议 ，修改端口默认值
+        document.getElementById('protocol').addEventListener('change', function () {
+            document.getElementById('port').value = this.value === 'wss' ? '443' : '80';
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>{{ title }}</title>
+    <!-- 添加 js 文件 -->
+    {% for js_file in js_files %}
+        <script src="{{ url_for('static', filename=js_file) }}"></script>
+    {% endfor %}
+
+    <!-- 添加 css 样式 -->
+    {% for css_file in css_files %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename=css_file) }}" />
+    {% endfor %}
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #4a4a4a;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .section input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            margin-right: 10px;
+            box-sizing: border-box;
+        }
+        .section button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+        .section button:hover {
+            background-color: #0056b3;
+        }
+        .param-container {
+            margin-top: 20px;
+        }
+        .param-row {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .param-row input {
+            margin-right: 10px;
+            flex: 1;
+        }
+        .remove-param-btn {
+            margin-left: 10px;
+            color: #dc3545;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .remove-param-btn:hover {
+            text-decoration: underline;
+        }
+        .output-box {
+            border: 1px solid #ddd;
+            padding: 20px;
+            background: #fff;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            white-space: pre-wrap; /* Preserve whitespace formatting */
+            font-family: monospace; /* Use monospace font for code blocks */
+        }
+        .output-box code {
+            display: block;
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Sekiro API</h1>
+
+    <div class="section">
+        <h2>Client Queue API</h2>
+        <input type="text" id="group-client" placeholder="Group">
+        <button onclick="callClientQueueAPI()">Call Client Queue API</button>
+    </div>
+
+    <div class="section">
+        <h2>Invoke API</h2>
+        <input type="text" id="group-invoke" placeholder="Group">
+        <input type="text" id="action-invoke" placeholder="Action">
+
+        <div class="param-container" id="param-container">
+            <!-- 动态参数输入框将被添加到这里 -->
+        </div>
+        <button onclick="addParam()">Add Parameter</button>
+
+        <input type="text" id="other-args-invoke" placeholder="Other Args (JSON)" style="display: none;">
+        <button onclick="callInvokeAPI()">Call Invoke API</button>
+    </div>
+
+    <div class="section">
+        <h2>Group List API</h2>
+        <button onclick="callGroupListAPI()">Call Group List API</button>
+    </div>
+
+    <div class="section">
+        <button onclick="clearOutputBox()">Clear Output Box</button>
+    </div>
+
+    <div class="output-box" id="output-box"></div>
+</div>
+
+<script>
+    let paramCount = 0;  // 计数器，用于跟踪添加的参数框数量
+
+    function appendToOutputBox(apiName, data) {
+        const outputBox = document.getElementById('output-box');
+        const divider = '--------------------------------------- ' + apiName + ' ---------------------------\n\n';
+        outputBox.textContent += divider + JSON.stringify(data, null, 2) + '\n\n';
+    }
+
+    function addParam() {
+        paramCount++;
+        const container = document.getElementById('param-container');
+        const paramRow = document.createElement('div');
+        paramRow.className = 'param-row';
+        paramRow.dataset.index = paramCount;
+        paramRow.innerHTML = `
+            <input type="text" class="param-key" placeholder="Parameter Name" />
+            <input type="text" class="param-value" placeholder="Parameter Value" />
+            <span class="remove-param-btn" onclick="removeParam(${paramCount})">Remove</span>
+        `;
+        container.appendChild(paramRow);
+    }
+
+    function removeParam(index) {
+        const container = document.getElementById('param-container');
+        const rowToRemove = Array.from(container.children).find(row => row.dataset.index == index);
+        if (rowToRemove) {
+            container.removeChild(rowToRemove);
+        }
+    }
+
+    function callClientQueueAPI() {
+        const group = document.getElementById('group-client').value;
+
+        if (!group) {
+            appendToOutputBox('Client Queue API', { error: "Missing 'group'" });
+            return;
+        }
+
+        const postData = new URLSearchParams();
+        postData.append('group', group);
+
+        fetch('{{ client_queue_api }}', {
+            method: 'POST',
+            body: postData
+        })
+            .then(response => response.json())
+            .then(data => appendToOutputBox('Client Queue API', data))
+            .catch(error => appendToOutputBox('Client Queue API', { error: error.toString() }));
+    }
+
+    function callInvokeAPI() {
+        const group = document.getElementById('group-invoke').value;
+        const action = document.getElementById('action-invoke').value;
+
+        if (!group || !action) {
+            appendToOutputBox('Invoke API', { error: "Missing 'group' or 'action'" });
+            return;
+        }
+
+        const postData = new URLSearchParams();
+        postData.append('group', group);
+        postData.append('action', action);
+
+        const params = document.querySelectorAll('#param-container .param-row');
+        params.forEach(row => {
+            const key = row.querySelector('.param-key').value;
+            const value = row.querySelector('.param-value').value;
+            if (key && value) {
+                postData.append(key, value);
+            }
+        });
+
+        fetch('{{ invoke_api }}', {
+            method: 'POST',
+            body: postData
+        })
+            .then(response => response.json())
+            .then(data => appendToOutputBox('Invoke API', data))
+            .catch(error => appendToOutputBox('Invoke API', { error: error.toString() }));
+    }
+
+    function callGroupListAPI() {
+        fetch('{{ group_list_api }}', { method: 'GET' })
+            .then(response => response.json())
+            .then(data => appendToOutputBox('Group List API', data))
+            .catch(error => appendToOutputBox('Group List API', { error: error.toString() }));
+    }
+
+    function clearOutputBox() {
+        document.getElementById('output-box').textContent = '';
+    }
+</script>
+</body>
+</html>

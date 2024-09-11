@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <!-- 添加 js 文件 -->
+    {% for js_file in js_files %}
+        <script src="{{ url_for('static', filename=js_file) }}"></script>
+    {% endfor %}
+
+    <!-- 添加 css 样式 -->
+    {% for css_file in css_files %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename=css_file) }}" />
+    {% endfor %}
+    <style>
+        /* Styles for the notification panel */
+        #infoPanel {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50px;
+            cursor: pointer;
+            z-index: 1000;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            font-size: 14px;
+            text-align: center;
+        }
+        #infoPanel:hover {
+            background-color: #0056b3;
+        }
+
+        /* Styles for the modal window */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+            padding-top: 60px;
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 600px;
+            max-height: 80%; /* Adjust height to prevent overflow */
+            position: relative;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            overflow: hidden; /* Hide overflow in case of content exceeding */
+        }
+        .modal-header {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            font-size: 18px;
+            position: relative;
+        }
+        .modal-body {
+            padding: 20px 0;
+            height: calc(100% - 80px); /* Adjust height to fit modal content */
+            overflow-y: auto; /* Enable vertical scrolling if needed */
+            overflow-x: hidden; /* Hide horizontal scroll */
+            padding-right: 10px; /* Prevent content from being hidden by scrollbar */
+        }
+        .modal-footer {
+            padding: 10px 0;
+            border-top: 1px solid #ddd;
+            text-align: right;
+        }
+        .close, .close-btn {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        .close:hover, .close:focus, .close-btn:hover, .close-btn:focus {
+            color: black;
+        }
+        /* Hide scrollbar */
+        .modal-content::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<h1>证书生成工具</h1>
+<h3>生成后记得重启 Nginx</h3>
+<form id="certForm">
+    <div class="input-group">
+        <label for="domains">域名（每行一个）：</label>
+        <div id="domainsContainer">
+            <div class="domain-row">
+                <input type="text" name="domains" placeholder="输入域名" class="domain-input">
+                <button type="button" class="remove-btn" aria-label="删除域名">✖</button>
+            </div>
+        </div>
+        <button type="button" id="addDomain">添加域名</button>
+    </div>
+    <div class="input-group">
+        <label for="install">安装证书：</label>
+        <input type="checkbox" id="install" name="install">
+        <label for="uninstall">卸载证书：</label>
+        <input type="checkbox" id="uninstall" name="uninstall">
+    </div>
+    <button type="submit">提交</button>
+</form>
+<div id="notification" class="notification"></div>
+
+<!-- Info Panel -->
+<div id="infoPanel">ℹ️ 信息</div>
+
+<!-- Modal for mkcert explanation -->
+<div id="infoModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>mkcert 介绍</h2>
+        </div>
+        <div class="modal-body">
+            <p>mkcert 是一个用于生成本地开发和测试用的自签名证书的工具。它简化了证书生成和安装过程，使得开发者可以快速创建和使用 SSL/TLS 证书。</p>
+            <p>主要功能包括：</p>
+            <ul>
+                <li>生成证书和密钥文件。</li>
+                <li>将证书安装到系统的信任存储中，以避免浏览器警告。</li>
+                <li>支持证书的安装和卸载。</li>
+                <li>先生成服务器端的证书（nginx使用)，然后还要安装证书(本地安装证书，添加受信任，这个安装证书不是指安装生成的证书)。</li>
+            </ul>
+            <p>用法示例：</p>
+            <pre><code>mkcert --cert-file &lt;path/to/your.crt&gt; --key-file &lt;path/to/your.key&gt; &lt;domain1&gt; &lt;domain2&gt; ...</code></pre>
+            <p>安装证书：</p>
+            <pre><code>mkcert -install</code></pre>
+            <p>卸载证书：</p>
+            <pre><code>mkcert -uninstall</code></pre>
+        </div>
+        <div class="modal-footer">
+            <button class="close-btn">关闭</button>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    $(document).ready(function() {
+        // Add domain input row
+        $('#addDomain').on('click', function() {
+            $('#domainsContainer').append(
+                `<div class="domain-row">
+                        <input type="text" name="domains" placeholder="输入域名" class="domain-input">
+                        <button type="button" class="remove-btn" aria-label="删除域名">✖</button>
+                    </div>`
+            );
+        });
+
+        // Remove domain input row
+        $(document).on('click', '.remove-btn', function() {
+            $(this).parent('.domain-row').remove();
+        });
+
+        // Handle form submission
+        $('#certForm').on('submit', function(event) {
+            event.preventDefault();
+
+            // Collect and process domain values
+            let domains = [];
+            $('.domain-input').each(function() {
+                let value = $(this).val().trim();
+                if (value) {
+                    domains.push(value);
+                }
+            });
+
+            // Remove duplicates
+            domains = [...new Set(domains)];
+
+            // Convert array to comma-separated string
+            const domainString = domains.join(',');
+
+            // Collect form data
+            let formData = $(this).serializeArray();
+            formData = formData.filter(item => item.name !== 'domains'); // Remove old domains data
+            formData.push({ name: 'domains', value: domainString });
+
+            $.post({
+                url: '{{ create_cert }}',
+                data: $.param(formData),
+                success: function(response) {
+                    if (response.success) {
+                        showNotification(response.message, 'success');
+                    } else {
+                        showNotification(response.message, 'failed');
+                    }
+                },
+                error: function() {
+                    showNotification('请求失败!', 'failed');
+                }
+            });
+        });
+
+        // Info panel click event
+        $('#infoPanel').on('click', function() {
+            $('#infoModal').show();
+        });
+
+        // Close modal when clicking on 'x' or 'close' button
+        $(document).on('click', '.close, .close-btn', function() {
+            $('#infoModal').hide();
+        });
+
+        // Close modal when clicking outside the modal content
+        $(window).on('click', function(event) {
+            if ($(event.target).is('#infoModal')) {
+                $('#infoModal').hide();
+            }
+        });
+    });
+
+    function showNotification(message, type) {
+        var notification = $('#notification');
+        notification.text(message).removeClass('success failed').addClass(type).show();
+        setTimeout(function() {
+            notification.fadeOut();
+        }, 3000);
+    }
+</script>
+</body>
+</html>

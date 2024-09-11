@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页导航</title>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>{{ title }}</title>
+    {% for js_file in js_files %}
+        <script src="{{ url_for('static', filename=js_file) }}"></script>
+    {% endfor %}
+    {% for css_file in css_files %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename=css_file) }}" />
+    {% endfor %}
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, #ff0066, #dac6dc, #66ffcc, #4d6389);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            z-index: -1;
+        }
+        @keyframes gradient {
+            0% { background-position: 0% 0%; }
+            50% { background-position: 100% 100%; }
+            100% { background-position: 0% 0%; }
+        }
+        .content {
+            position: relative;
+            text-align: center;
+            color: #fff;
+            padding: 50px;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .title {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .marquee {
+            font-size: 2em;
+            animation: marquee 5s linear infinite;
+        }
+        @keyframes marquee {
+            from { transform: translateX(100%); }
+            to { transform: translateX(-100%); }
+        }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            text-align: center;
+            color: #fff;
+        }
+        .navbar {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+        }
+        .navbar >h3 {
+            background-color: darkgrey;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        .navbar a:hover {
+            color: #00ff90;
+        }
+    </style>
+</head>
+<body>
+<div class="background"></div>
+<div class="content">
+    <div class="logo">
+        <!-- Placeholder for logo -->
+        <i class="fas fa-cogs fa-5x"></i>
+    </div>
+    <div class="title">Sekiro Demo UI</div>
+    <div class="marquee">弹幕: 抓不到我 略略略~</div>
+    <div class="navbar" id="navbar">
+        <!-- Navigation links will be dynamically inserted here -->
+    </div>
+</div>
+<div class="footer">
+    © 2024 版权归作者所有
+</div>
+
+<script>
+    $(document).ready(function() {
+        $.getJSON('/api/navigation', function(data) {
+            let navbarHtml = '';
+            $.each(data, function(moduleName, links) {
+                navbarHtml += `<h3>${moduleName}</h3>`;
+                $.each(links, function(index, link) {
+                    let description = Object.keys(link)[0];
+                    let url = link[description];
+                    navbarHtml += `<a href="${url}">${description}</a>`;
+                });
+            });
+            $('#navbar').html(navbarHtml);
+        });
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    <title>{{ title }}</title>
+    <!-- 添加 js 文件 -->
+    {% for js_file in js_files %}
+        <script src="{{ url_for('static', filename=js_file)}}"></script>
+    {% endfor %}
+
+    <!-- 添加 css 样式 -->
+    {% for css_file in css_files %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename=css_file)}}" />
+    {% endfor %}
+</head>
+
+<body>
+<label for="username">用户名：</label><br>
+<textarea id="username" rows="5" cols="50" ondrop="handleDropUsername(event)" ondragover="handleDragOver(event)"></textarea><br>
+<label for="password">密码：</label><br>
+<textarea id="password" rows="5" cols="50" ondrop="handleDropPassword(event)" ondragover="handleDragOver(event)"></textarea><br>
+<button onclick="submitData()">提交</button><br>
+<table id="resultTable">
+    <thead>
+    <tr>
+        <th>User</th>
+        <th>Password</th>
+        <th>状态码</th>
+        <th>内容</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<script>
+    function handleDragOver(event) {
+        event.preventDefault();
+    }
+
+    function handleDropUsername(event) {
+        event.preventDefault();
+        const file = event.dataTransfer.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const fileContent = e.target.result.split('\n');
+                let content = '';
+                for (let line of fileContent) {
+                    content += line + '\n';
+                }
+                document.getElementById('username').value = content;
+            };
+            reader.readAsText(file);
+        }
+    }
+
+    function handleDropPassword(event) {
+        event.preventDefault();
+        const file = event.dataTransfer.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const fileContent = e.target.result.split('\n');
+                let content = '';
+                for (let line of fileContent) {
+                    content += line + '\n';
+                }
+                document.getElementById('password').value = content;
+            };
+            reader.readAsText(file);
+        }
+    }
+
+    function submitData() {
+        const usernameLines = document.getElementById('username').value.split('\n');
+        const passwordLines = document.getElementById('password').value.split('\n');
+
+        const combinations = [];
+        for (const username of usernameLines) {
+            for (const password of passwordLines) {
+                combinations.push({ user: username.trim(), pwd: password.trim() });
+            }
+        }
+
+        async function sendRequests() {
+            const tbody = document.getElementById('resultTable').getElementsByTagName('tbody')[0];
+            for (const combination of combinations) {
+                $.ajax({
+                    type: 'POST',
+                    url: '{{ url_for(burp_api)}}',
+                    data: JSON.stringify(combination),
+                    contentType: 'application/json',
+                    success: function (response, status,xhr) {
+                        const newRow = tbody.insertRow();
+                        newRow.insertCell(0).innerHTML = combination.user;
+                        newRow.insertCell(1).innerHTML = combination.pwd;
+                        newRow.insertCell(2).innerHTML = xhr.status;
+                        newRow.insertCell(3).innerHTML = JSON.stringify(response);
+                    },
+                    error: function (error) {
+                        console.error('请求出错:', error);
+                    }
+                });
+            }
+        }
+
+        sendRequests();
+    }
+</script>
+</body>
+
+</html>
