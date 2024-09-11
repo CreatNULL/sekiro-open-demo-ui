@@ -1,0 +1,11 @@
+Unhandled exception. System.InvalidOperationException: UpdatePendingStatus can only be called during the handling of Start, Stop, Pause and Continue commands.
+   at System.ServiceProcess.ServiceBase.RequestAdditionalTime(Int32)
+   at WinSW.WrapperService.SignalPending()
+   at WinSW.WrapperService.DoStop()
+   at WinSW.WrapperService.OnShutdown()
+   at System.ServiceProcess.ServiceBase.DeferredShutdown()
+   at System.ServiceProcess.ServiceBase.<>c__DisplayClass70_0.<ServiceCommandCallback>b__3(Object)
+   at System.Threading.QueueUserWorkItemCallbackDefaultContext.Execute()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+   at System.Threading.PortableThreadPool.WorkerThread.WorkerThreadStart()
+   at System.Threading.Thread.StartCallback()

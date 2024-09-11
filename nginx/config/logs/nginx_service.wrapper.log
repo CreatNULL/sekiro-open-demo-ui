@@ -1,0 +1,881 @@
+2024-09-01T22:26:34.636 INFO  console - Installing service 'Nginx Service for sekiro (nginx)'...
+2024-09-01T22:26:34.685 INFO  console - Service 'Nginx Service for sekiro (nginx)' was installed successfully.
+2024-09-01T22:29:35.060 DEBUG console - Starting WinSW in service mode.
+2024-09-01T22:29:35.102 INFO  console - Service 'Nginx Service for sekiro (nginx)' was refreshed successfully.
+2024-09-01T22:29:35.120 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-01T22:29:35.180 INFO  service - Started process nginx (33068).
+2024-09-01T22:29:35.208 INFO  service - Service started successfully.
+2024-09-01T22:29:58.243 INFO  service - Stopping nginx
+2024-09-01T22:29:58.292 INFO  service - Started process nginx (33752).
+2024-09-01T22:29:58.292 DEBUG service - WaitForProcessToExit 33068+33752
+2024-09-01T22:29:58.829 INFO  service - Finished nginx
+2024-09-01T22:29:58.830 INFO  service - Service stopped successfully.
+2024-09-01T22:38:07.596 DEBUG console - Starting WinSW in service mode.
+2024-09-01T22:38:07.636 INFO  console - Service 'Nginx Service for sekiro (nginx)' was refreshed successfully.
+2024-09-01T22:38:07.657 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-01T22:38:07.718 INFO  service - Started process nginx (42480).
+2024-09-01T22:38:07.748 INFO  service - Service started successfully.
+2024-09-01T22:38:25.422 INFO  service - Stopping nginx
+2024-09-01T22:38:25.469 INFO  service - Started process nginx (43480).
+2024-09-01T22:38:25.470 DEBUG service - WaitForProcessToExit 42480+43480
+2024-09-01T22:38:25.721 INFO  service - Finished nginx
+2024-09-01T22:38:25.722 INFO  service - Service stopped successfully.
+2024-09-01T22:52:23.363 DEBUG console - Starting WinSW in service mode.
+2024-09-01T22:52:23.403 INFO  console - Service 'Nginx Service for sekiro (nginx)' was refreshed successfully.
+2024-09-01T22:52:23.420 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-01T22:52:23.477 INFO  service - Started process nginx (21432).
+2024-09-01T22:52:23.510 INFO  service - Service started successfully.
+2024-09-01T22:52:47.638 INFO  service - Stopping nginx
+2024-09-01T22:52:47.687 INFO  service - Started process nginx (30916).
+2024-09-01T22:52:47.688 DEBUG service - WaitForProcessToExit 21432+30916
+2024-09-01T22:52:48.118 INFO  service - Finished nginx
+2024-09-01T22:52:48.119 INFO  service - Service stopped successfully.
+2024-09-01T22:57:32.693 DEBUG console - Starting WinSW in service mode.
+2024-09-01T22:57:32.740 INFO  console - Service 'Nginx Service for sekiro (nginx)' was refreshed successfully.
+2024-09-01T22:57:32.757 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-01T22:57:32.816 INFO  service - Started process nginx (3928).
+2024-09-01T22:57:32.845 INFO  service - Service started successfully.
+2024-09-02T00:05:02.819 INFO  service - Stopping nginx
+2024-09-02T00:05:02.860 INFO  service - Started process nginx (32524).
+2024-09-02T00:05:02.861 DEBUG service - WaitForProcessToExit 3928+32524
+2024-09-02T00:05:03.381 INFO  service - Finished nginx
+2024-09-02T00:05:03.382 INFO  service - Service stopped successfully.
+2024-09-02T00:31:29.695 INFO  console - Installing service 'Nginx Service for sekiro (nginx)'...
+2024-09-02T00:31:29.733 INFO  console - Service 'Nginx Service for sekiro (nginx)' was installed successfully.
+2024-09-02T00:47:49.778 DEBUG console - Starting WinSW in service mode.
+2024-09-02T00:47:49.827 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T00:47:49.883 INFO  service - Started process nginx (40968).
+2024-09-02T00:47:49.914 INFO  service - Service started successfully.
+2024-09-02T00:47:56.061 INFO  service - Stopping nginx
+2024-09-02T00:47:56.101 INFO  service - Started process nginx (21924).
+2024-09-02T00:47:56.101 DEBUG service - WaitForProcessToExit 40968+21924
+2024-09-02T00:47:56.592 INFO  service - Finished nginx
+2024-09-02T00:47:56.593 INFO  service - Service stopped successfully.
+2024-09-02T00:49:01.890 DEBUG console - Starting WinSW in service mode.
+2024-09-02T00:49:01.936 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T00:49:01.990 INFO  service - Started process nginx (46448).
+2024-09-02T00:49:02.015 INFO  service - Service started successfully.
+2024-09-02T00:49:26.767 INFO  service - Stopping nginx
+2024-09-02T00:49:26.806 INFO  service - Started process nginx (45580).
+2024-09-02T00:49:26.806 DEBUG service - WaitForProcessToExit 46448+45580
+2024-09-02T00:49:26.870 INFO  service - Finished nginx
+2024-09-02T00:49:26.870 INFO  service - Service stopped successfully.
+2024-09-02T01:15:47.971 DEBUG console - Starting WinSW in service mode.
+2024-09-02T01:15:48.015 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T01:15:48.069 INFO  service - Started process nginx (15540).
+2024-09-02T01:15:48.097 INFO  service - Service started successfully.
+2024-09-02T01:16:02.520 INFO  service - Stopping nginx
+2024-09-02T01:16:02.570 INFO  service - Started process nginx (43320).
+2024-09-02T01:16:02.571 DEBUG service - WaitForProcessToExit 15540+43320
+2024-09-02T01:16:02.972 INFO  service - Finished nginx
+2024-09-02T01:16:02.973 INFO  service - Service stopped successfully.
+2024-09-02T01:44:32.130 DEBUG console - Starting WinSW in service mode.
+2024-09-02T01:44:32.175 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T01:44:32.231 INFO  service - Started process nginx (22656).
+2024-09-02T01:44:32.256 INFO  service - Service started successfully.
+2024-09-02T01:44:34.197 INFO  service - Stopping nginx
+2024-09-02T01:44:34.235 INFO  service - Started process nginx (46384).
+2024-09-02T01:44:34.236 DEBUG service - WaitForProcessToExit 22656+46384
+2024-09-02T01:44:34.348 INFO  service - Finished nginx
+2024-09-02T01:44:34.349 INFO  service - Service stopped successfully.
+2024-09-02T01:54:48.902 DEBUG console - Starting WinSW in service mode.
+2024-09-02T01:54:48.957 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T01:54:49.020 INFO  service - Started process nginx (5892).
+2024-09-02T01:54:49.052 INFO  service - Service started successfully.
+2024-09-02T01:54:55.389 INFO  service - Stopping nginx
+2024-09-02T01:54:55.431 INFO  service - Started process nginx (41404).
+2024-09-02T01:54:55.431 DEBUG service - WaitForProcessToExit 5892+41404
+2024-09-02T01:54:55.756 INFO  service - Finished nginx
+2024-09-02T01:54:55.756 INFO  service - Service stopped successfully.
+2024-09-02T01:54:57.661 DEBUG console - Starting WinSW in service mode.
+2024-09-02T01:54:57.708 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T01:54:57.767 INFO  service - Started process nginx (38812).
+2024-09-02T01:54:57.796 INFO  service - Service started successfully.
+2024-09-02T01:55:00.402 INFO  service - Stopping nginx
+2024-09-02T01:55:00.462 INFO  service - Started process nginx (45572).
+2024-09-02T01:55:00.463 DEBUG service - WaitForProcessToExit 38812+45572
+2024-09-02T01:55:00.913 INFO  service - Finished nginx
+2024-09-02T01:55:00.914 INFO  service - Service stopped successfully.
+2024-09-02T01:55:03.279 DEBUG console - Starting WinSW in service mode.
+2024-09-02T01:55:03.325 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T01:55:03.379 INFO  service - Started process nginx (22080).
+2024-09-02T01:55:03.408 INFO  service - Service started successfully.
+2024-09-02T01:55:04.431 INFO  service - Stopping nginx
+2024-09-02T01:55:04.471 INFO  service - Started process nginx (45720).
+2024-09-02T01:55:04.471 DEBUG service - WaitForProcessToExit 22080+45720
+2024-09-02T01:55:04.990 INFO  service - Finished nginx
+2024-09-02T01:55:04.991 INFO  service - Service stopped successfully.
+2024-09-02T01:55:09.737 DEBUG console - Starting WinSW in service mode.
+2024-09-02T01:55:09.788 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T01:55:09.844 INFO  service - Started process nginx (19932).
+2024-09-02T01:55:09.870 INFO  service - Service started successfully.
+2024-09-02T01:55:12.482 INFO  service - Stopping nginx
+2024-09-02T01:55:12.522 INFO  service - Started process nginx (44948).
+2024-09-02T01:55:12.523 DEBUG service - WaitForProcessToExit 19932+44948
+2024-09-02T01:55:12.998 INFO  service - Finished nginx
+2024-09-02T01:55:12.998 INFO  service - Service stopped successfully.
+2024-09-02T01:55:30.304 DEBUG console - Starting WinSW in service mode.
+2024-09-02T01:55:30.354 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T01:55:30.412 INFO  service - Started process nginx (27824).
+2024-09-02T01:55:30.438 INFO  service - Service started successfully.
+2024-09-02T01:55:41.267 INFO  service - Stopping nginx
+2024-09-02T01:55:41.311 INFO  service - Started process nginx (6908).
+2024-09-02T01:55:41.312 DEBUG service - WaitForProcessToExit 27824+6908
+2024-09-02T01:55:41.736 INFO  service - Finished nginx
+2024-09-02T01:55:41.737 INFO  service - Service stopped successfully.
+2024-09-02T01:58:37.454 DEBUG console - Starting WinSW in service mode.
+2024-09-02T01:58:37.505 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T01:58:37.563 INFO  service - Started process nginx (39680).
+2024-09-02T01:58:37.595 INFO  service - Service started successfully.
+2024-09-02T01:59:08.916 INFO  service - Stopping nginx
+2024-09-02T01:59:08.964 INFO  service - Started process nginx (7220).
+2024-09-02T01:59:08.965 DEBUG service - WaitForProcessToExit 39680+7220
+2024-09-02T01:59:09.358 INFO  service - Finished nginx
+2024-09-02T01:59:09.359 INFO  service - Service stopped successfully.
+2024-09-02T02:00:59.570 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:00:59.621 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:00:59.681 INFO  service - Started process nginx (44576).
+2024-09-02T02:00:59.711 INFO  service - Service started successfully.
+2024-09-02T02:01:02.507 INFO  service - Stopping nginx
+2024-09-02T02:01:02.557 INFO  service - Started process nginx (40804).
+2024-09-02T02:01:02.557 DEBUG service - WaitForProcessToExit 44576+40804
+2024-09-02T02:01:02.834 INFO  service - Finished nginx
+2024-09-02T02:01:02.834 INFO  service - Service stopped successfully.
+2024-09-02T02:01:37.218 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:01:37.275 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:01:37.335 INFO  service - Started process nginx (3732).
+2024-09-02T02:01:37.362 INFO  service - Service started successfully.
+2024-09-02T02:01:41.999 INFO  service - Stopping nginx
+2024-09-02T02:01:42.047 INFO  service - Started process nginx (6692).
+2024-09-02T02:01:42.047 DEBUG service - WaitForProcessToExit 3732+6692
+2024-09-02T02:01:42.539 INFO  service - Finished nginx
+2024-09-02T02:01:42.539 INFO  service - Service stopped successfully.
+2024-09-02T02:03:26.679 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:03:26.726 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:03:26.783 INFO  service - Started process nginx (4208).
+2024-09-02T02:03:26.811 INFO  service - Service started successfully.
+2024-09-02T02:03:31.195 INFO  service - Stopping nginx
+2024-09-02T02:03:31.240 INFO  service - Started process nginx (26692).
+2024-09-02T02:03:31.241 DEBUG service - WaitForProcessToExit 4208+26692
+2024-09-02T02:03:31.469 INFO  service - Finished nginx
+2024-09-02T02:03:31.470 INFO  service - Service stopped successfully.
+2024-09-02T02:03:37.286 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:03:37.335 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:03:37.395 INFO  service - Started process nginx (24696).
+2024-09-02T02:03:37.425 INFO  service - Service started successfully.
+2024-09-02T02:03:39.221 INFO  service - Stopping nginx
+2024-09-02T02:03:39.267 INFO  service - Started process nginx (41732).
+2024-09-02T02:03:39.267 DEBUG service - WaitForProcessToExit 24696+41732
+2024-09-02T02:03:39.516 INFO  service - Finished nginx
+2024-09-02T02:03:39.516 INFO  service - Service stopped successfully.
+2024-09-02T02:03:41.641 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:03:41.692 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:03:41.752 INFO  service - Started process nginx (44452).
+2024-09-02T02:03:41.781 INFO  service - Service started successfully.
+2024-09-02T02:03:42.654 INFO  service - Stopping nginx
+2024-09-02T02:03:42.699 INFO  service - Started process nginx (45476).
+2024-09-02T02:03:42.700 DEBUG service - WaitForProcessToExit 44452+45476
+2024-09-02T02:03:42.855 INFO  service - Finished nginx
+2024-09-02T02:03:42.856 INFO  service - Service stopped successfully.
+2024-09-02T02:03:49.818 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:03:49.876 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:03:49.935 INFO  service - Started process nginx (39872).
+2024-09-02T02:03:49.962 INFO  service - Service started successfully.
+2024-09-02T02:08:21.676 WARN  service - Child process 'nginx (39872)' finished with code 1.
+2024-09-02T02:11:43.119 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:43.165 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:43.223 INFO  service - Started process nginx (36816).
+2024-09-02T02:11:43.249 INFO  service - Service started successfully.
+2024-09-02T02:11:43.740 INFO  service - Stopping nginx
+2024-09-02T02:11:43.787 INFO  service - Started process nginx (22576).
+2024-09-02T02:11:43.787 DEBUG service - WaitForProcessToExit 36816+22576
+2024-09-02T02:11:43.833 INFO  service - Finished nginx
+2024-09-02T02:11:43.833 INFO  service - Service stopped successfully.
+2024-09-02T02:11:44.478 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:44.529 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:44.586 INFO  service - Started process nginx (29780).
+2024-09-02T02:11:44.613 INFO  service - Service started successfully.
+2024-09-02T02:11:44.866 INFO  service - Stopping nginx
+2024-09-02T02:11:44.914 INFO  service - Started process nginx (42508).
+2024-09-02T02:11:44.914 DEBUG service - WaitForProcessToExit 29780+42508
+2024-09-02T02:11:45.181 INFO  service - Finished nginx
+2024-09-02T02:11:45.182 INFO  service - Service stopped successfully.
+2024-09-02T02:11:45.630 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:45.683 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:45.747 INFO  service - Started process nginx (36804).
+2024-09-02T02:11:45.778 INFO  service - Service started successfully.
+2024-09-02T02:11:45.883 WARN  service - Child process 'nginx (36804)' finished with code 1.
+2024-09-02T02:11:46.318 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:46.372 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:46.439 INFO  service - Started process nginx (44264).
+2024-09-02T02:11:46.471 INFO  service - Service started successfully.
+2024-09-02T02:11:46.624 WARN  service - Child process 'nginx (44264)' finished with code 1.
+2024-09-02T02:11:47.145 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:47.194 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:47.251 INFO  service - Started process nginx (8408).
+2024-09-02T02:11:47.278 INFO  service - Service started successfully.
+2024-09-02T02:11:48.038 WARN  service - Child process 'nginx (8408)' finished with code 1.
+2024-09-02T02:11:48.596 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:48.650 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:48.711 INFO  service - Started process nginx (46144).
+2024-09-02T02:11:48.738 INFO  service - Service started successfully.
+2024-09-02T02:11:48.834 WARN  service - Child process 'nginx (46144)' finished with code 1.
+2024-09-02T02:11:49.313 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:49.364 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:49.429 INFO  service - Started process nginx (46680).
+2024-09-02T02:11:49.461 INFO  service - Service started successfully.
+2024-09-02T02:11:49.579 WARN  service - Child process 'nginx (46680)' finished with code 1.
+2024-09-02T02:11:50.120 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:50.171 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:50.227 INFO  service - Started process nginx (43932).
+2024-09-02T02:11:50.253 INFO  service - Service started successfully.
+2024-09-02T02:11:51.150 INFO  service - Stopping nginx
+2024-09-02T02:11:51.205 INFO  service - Started process nginx (24640).
+2024-09-02T02:11:51.205 DEBUG service - WaitForProcessToExit 43932+24640
+2024-09-02T02:11:51.327 INFO  service - Finished nginx
+2024-09-02T02:11:51.328 INFO  service - Service stopped successfully.
+2024-09-02T02:11:52.869 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:52.923 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:52.981 INFO  service - Started process nginx (17172).
+2024-09-02T02:11:53.006 INFO  service - Service started successfully.
+2024-09-02T02:11:53.744 INFO  service - Stopping nginx
+2024-09-02T02:11:53.790 INFO  service - Started process nginx (41700).
+2024-09-02T02:11:53.790 DEBUG service - WaitForProcessToExit 17172+41700
+2024-09-02T02:11:54.093 INFO  service - Finished nginx
+2024-09-02T02:11:54.093 INFO  service - Service stopped successfully.
+2024-09-02T02:11:56.077 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:11:56.122 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:11:56.240 INFO  service - Started process nginx (20276).
+2024-09-02T02:11:56.269 INFO  service - Service started successfully.
+2024-09-02T02:12:05.988 INFO  service - Stopping nginx
+2024-09-02T02:12:06.034 INFO  service - Started process nginx (17740).
+2024-09-02T02:12:06.035 DEBUG service - WaitForProcessToExit 20276+17740
+2024-09-02T02:12:06.557 INFO  service - Finished nginx
+2024-09-02T02:12:06.557 INFO  service - Service stopped successfully.
+2024-09-02T02:13:46.260 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:13:46.308 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:13:46.372 INFO  service - Started process nginx (38196).
+2024-09-02T02:13:46.403 INFO  service - Service started successfully.
+2024-09-02T02:13:47.510 INFO  service - Stopping nginx
+2024-09-02T02:13:47.555 INFO  service - Started process nginx (31036).
+2024-09-02T02:13:47.556 DEBUG service - WaitForProcessToExit 38196+31036
+2024-09-02T02:13:47.995 INFO  service - Finished nginx
+2024-09-02T02:13:47.996 INFO  service - Service stopped successfully.
+2024-09-02T02:13:50.388 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:13:50.437 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:13:50.499 INFO  service - Started process nginx (27124).
+2024-09-02T02:13:50.526 INFO  service - Service started successfully.
+2024-09-02T02:14:59.908 INFO  service - Stopping nginx
+2024-09-02T02:14:59.956 INFO  service - Started process nginx (4664).
+2024-09-02T02:14:59.956 DEBUG service - WaitForProcessToExit 27124+4664
+2024-09-02T02:15:00.158 INFO  service - Finished nginx
+2024-09-02T02:15:00.159 INFO  service - Service stopped successfully.
+2024-09-02T02:15:00.875 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:15:00.927 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:15:00.987 INFO  service - Started process nginx (13864).
+2024-09-02T02:15:01.019 INFO  service - Service started successfully.
+2024-09-02T02:16:03.283 INFO  service - Stopping nginx
+2024-09-02T02:16:03.336 INFO  service - Started process nginx (43252).
+2024-09-02T02:16:03.337 DEBUG service - WaitForProcessToExit 13864+43252
+2024-09-02T02:16:03.499 INFO  service - Finished nginx
+2024-09-02T02:16:03.500 INFO  service - Service stopped successfully.
+2024-09-02T02:16:03.937 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:16:03.989 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:16:04.051 INFO  service - Started process nginx (22660).
+2024-09-02T02:16:04.086 INFO  service - Service started successfully.
+2024-09-02T02:17:15.711 WARN  service - Child process 'nginx (22660)' finished with code 1.
+2024-09-02T02:17:16.290 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:17:16.340 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:17:16.403 INFO  service - Started process nginx (44792).
+2024-09-02T02:17:16.429 INFO  service - Service started successfully.
+2024-09-02T02:17:16.910 WARN  service - Child process 'nginx (44792)' finished with code 1.
+2024-09-02T02:17:17.427 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:17:17.480 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:17:17.536 INFO  service - Started process nginx (19816).
+2024-09-02T02:17:17.562 INFO  service - Service started successfully.
+2024-09-02T02:17:17.981 WARN  service - Child process 'nginx (19816)' finished with code 1.
+2024-09-02T02:17:18.772 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:17:18.822 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:17:18.877 INFO  service - Started process nginx (29852).
+2024-09-02T02:17:18.902 INFO  service - Service started successfully.
+2024-09-02T02:17:19.165 INFO  service - Stopping nginx
+2024-09-02T02:17:19.214 INFO  service - Started process nginx (3536).
+2024-09-02T02:17:19.214 DEBUG service - WaitForProcessToExit 29852+3536
+2024-09-02T02:17:19.466 INFO  service - Finished nginx
+2024-09-02T02:17:19.467 INFO  service - Service stopped successfully.
+2024-09-02T02:17:20.245 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:17:20.294 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:17:20.353 INFO  service - Started process nginx (27576).
+2024-09-02T02:17:20.382 INFO  service - Service started successfully.
+2024-09-02T02:22:14.823 WARN  service - Child process 'nginx (27576)' finished with code 1.
+2024-09-02T02:22:15.440 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:22:15.494 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:22:15.558 INFO  service - Started process nginx (30224).
+2024-09-02T02:22:15.588 INFO  service - Service started successfully.
+2024-09-02T02:22:16.462 INFO  service - Stopping nginx
+2024-09-02T02:22:16.508 INFO  service - Started process nginx (45260).
+2024-09-02T02:22:16.508 DEBUG service - WaitForProcessToExit 30224+45260
+2024-09-02T02:22:16.648 INFO  service - Finished nginx
+2024-09-02T02:22:16.649 INFO  service - Service stopped successfully.
+2024-09-02T02:22:17.700 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:22:17.748 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:22:17.805 INFO  service - Started process nginx (32784).
+2024-09-02T02:22:17.832 INFO  service - Service started successfully.
+2024-09-02T02:22:18.454 INFO  service - Stopping nginx
+2024-09-02T02:22:18.499 INFO  service - Started process nginx (6816).
+2024-09-02T02:22:18.500 DEBUG service - WaitForProcessToExit 32784+6816
+2024-09-02T02:22:18.641 INFO  service - Finished nginx
+2024-09-02T02:22:18.642 INFO  service - Service stopped successfully.
+2024-09-02T02:28:52.323 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:28:52.377 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:28:52.443 INFO  service - Started process nginx (33588).
+2024-09-02T02:28:52.477 INFO  service - Service started successfully.
+2024-09-02T02:28:53.243 INFO  service - Stopping nginx
+2024-09-02T02:28:53.292 INFO  service - Started process nginx (43520).
+2024-09-02T02:28:53.292 DEBUG service - WaitForProcessToExit 33588+43520
+2024-09-02T02:28:53.456 INFO  service - Finished nginx
+2024-09-02T02:28:53.456 INFO  service - Service stopped successfully.
+2024-09-02T02:28:54.365 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:28:54.421 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:28:54.483 INFO  service - Started process nginx (44492).
+2024-09-02T02:28:54.514 INFO  service - Service started successfully.
+2024-09-02T02:28:54.796 INFO  service - Stopping nginx
+2024-09-02T02:28:54.843 INFO  service - Started process nginx (43408).
+2024-09-02T02:28:54.844 DEBUG service - WaitForProcessToExit 44492+43408
+2024-09-02T02:28:55.003 INFO  service - Finished nginx
+2024-09-02T02:28:55.004 INFO  service - Service stopped successfully.
+2024-09-02T02:28:55.804 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:28:55.861 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:28:55.926 INFO  service - Started process nginx (33972).
+2024-09-02T02:28:55.960 INFO  service - Service started successfully.
+2024-09-02T02:28:56.140 WARN  service - Child process 'nginx (33972)' finished with code 1.
+2024-09-02T02:28:56.849 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:28:56.910 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:28:56.978 INFO  service - Started process nginx (41232).
+2024-09-02T02:28:57.016 INFO  service - Service started successfully.
+2024-09-02T02:28:57.182 WARN  service - Child process 'nginx (41232)' finished with code 1.
+2024-09-02T02:28:57.711 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:28:57.771 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:28:57.847 INFO  service - Started process nginx (25536).
+2024-09-02T02:28:57.909 INFO  service - Service started successfully.
+2024-09-02T02:28:58.147 WARN  service - Child process 'nginx (25536)' finished with code 1.
+2024-09-02T02:28:58.740 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:28:58.804 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:28:58.877 INFO  service - Started process nginx (19916).
+2024-09-02T02:28:58.929 INFO  service - Service started successfully.
+2024-09-02T02:28:59.130 WARN  service - Child process 'nginx (19916)' finished with code 1.
+2024-09-02T02:28:59.916 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:28:59.970 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:29:00.043 INFO  service - Started process nginx (8984).
+2024-09-02T02:29:00.076 INFO  service - Service started successfully.
+2024-09-02T02:29:00.207 WARN  service - Child process 'nginx (8984)' finished with code 1.
+2024-09-02T02:29:00.861 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:29:00.926 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:29:01.015 INFO  service - Started process nginx (41552).
+2024-09-02T02:29:01.076 INFO  service - Service started successfully.
+2024-09-02T02:29:01.198 WARN  service - Child process 'nginx (41552)' finished with code 1.
+2024-09-02T02:29:01.738 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:29:01.801 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:29:01.885 INFO  service - Started process nginx (46484).
+2024-09-02T02:29:01.955 INFO  service - Service started successfully.
+2024-09-02T02:29:02.240 WARN  service - Child process 'nginx (46484)' finished with code 1.
+2024-09-02T02:29:02.793 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:29:02.903 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:29:02.995 INFO  service - Started process nginx (33524).
+2024-09-02T02:29:03.117 INFO  service - Service started successfully.
+2024-09-02T02:29:03.347 WARN  service - Child process 'nginx (33524)' finished with code 1.
+2024-09-02T02:29:03.842 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:29:03.905 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:29:03.988 INFO  service - Started process nginx (42028).
+2024-09-02T02:29:04.105 INFO  service - Service started successfully.
+2024-09-02T02:29:04.382 WARN  service - Child process 'nginx (42028)' finished with code 1.
+2024-09-02T02:29:05.486 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:29:05.573 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:29:05.686 INFO  service - Started process nginx (34056).
+2024-09-02T02:29:05.778 INFO  service - Service started successfully.
+2024-09-02T02:29:06.112 WARN  service - Child process 'nginx (34056)' finished with code 1.
+2024-09-02T02:29:06.622 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:29:06.684 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:29:06.764 INFO  service - Started process nginx (34860).
+2024-09-02T02:29:06.854 INFO  service - Service started successfully.
+2024-09-02T02:29:07.139 WARN  service - Child process 'nginx (34860)' finished with code 1.
+2024-09-02T02:29:07.682 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:29:07.742 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:29:07.824 INFO  service - Started process nginx (38504).
+2024-09-02T02:29:07.899 INFO  service - Service started successfully.
+2024-09-02T02:29:08.168 WARN  service - Child process 'nginx (38504)' finished with code 1.
+2024-09-02T02:31:05.207 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:31:05.264 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:31:05.332 INFO  service - Started process nginx (35784).
+2024-09-02T02:31:05.370 INFO  service - Service started successfully.
+2024-09-02T02:31:05.635 WARN  service - Child process 'nginx (35784)' finished with code 1.
+2024-09-02T02:31:06.218 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:31:06.279 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:31:06.350 INFO  service - Started process nginx (43580).
+2024-09-02T02:31:06.423 INFO  service - Service started successfully.
+2024-09-02T02:31:06.584 WARN  service - Child process 'nginx (43580)' finished with code 1.
+2024-09-02T02:31:07.149 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:31:07.208 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:31:07.283 INFO  service - Started process nginx (26692).
+2024-09-02T02:31:07.344 INFO  service - Service started successfully.
+2024-09-02T02:31:07.654 WARN  service - Child process 'nginx (26692)' finished with code 1.
+2024-09-02T02:31:08.310 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:31:08.368 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:31:08.447 INFO  service - Started process nginx (31260).
+2024-09-02T02:31:08.507 INFO  service - Service started successfully.
+2024-09-02T02:31:08.833 WARN  service - Child process 'nginx (31260)' finished with code 1.
+2024-09-02T02:31:09.362 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:31:09.418 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:31:09.486 INFO  service - Started process nginx (12548).
+2024-09-02T02:31:09.524 INFO  service - Service started successfully.
+2024-09-02T02:31:09.706 WARN  service - Child process 'nginx (12548)' finished with code 1.
+2024-09-02T02:31:27.724 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:31:27.774 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:31:27.835 INFO  service - Started process nginx (32576).
+2024-09-02T02:31:27.864 INFO  service - Service started successfully.
+2024-09-02T02:31:29.611 INFO  service - Stopping nginx
+2024-09-02T02:31:29.654 INFO  service - Started process nginx (25748).
+2024-09-02T02:31:29.654 DEBUG service - WaitForProcessToExit 32576+25748
+2024-09-02T02:31:29.797 INFO  service - Finished nginx
+2024-09-02T02:31:29.797 INFO  service - Service stopped successfully.
+2024-09-02T02:31:30.868 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:31:30.919 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:31:30.976 INFO  service - Started process nginx (38368).
+2024-09-02T02:31:31.007 INFO  service - Service started successfully.
+2024-09-02T02:31:31.508 INFO  service - Stopping nginx
+2024-09-02T02:31:31.554 INFO  service - Started process nginx (39880).
+2024-09-02T02:31:31.554 DEBUG service - WaitForProcessToExit 38368+39880
+2024-09-02T02:31:31.691 INFO  service - Finished nginx
+2024-09-02T02:31:31.692 INFO  service - Service stopped successfully.
+2024-09-02T02:31:32.339 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:31:32.387 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:31:32.444 INFO  service - Started process nginx (41900).
+2024-09-02T02:31:32.471 INFO  service - Service started successfully.
+2024-09-02T02:31:33.520 INFO  service - Stopping nginx
+2024-09-02T02:31:33.563 INFO  service - Started process nginx (45192).
+2024-09-02T02:31:33.563 DEBUG service - WaitForProcessToExit 41900+45192
+2024-09-02T02:31:33.701 INFO  service - Finished nginx
+2024-09-02T02:31:33.701 INFO  service - Service stopped successfully.
+2024-09-02T02:32:27.911 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:32:27.965 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:32:28.023 INFO  service - Started process nginx (37928).
+2024-09-02T02:32:28.054 INFO  service - Service started successfully.
+2024-09-02T02:32:28.634 INFO  service - Stopping nginx
+2024-09-02T02:32:28.677 INFO  service - Started process nginx (32464).
+2024-09-02T02:32:28.678 DEBUG service - WaitForProcessToExit 37928+32464
+2024-09-02T02:32:28.842 INFO  service - Finished nginx
+2024-09-02T02:32:28.843 INFO  service - Service stopped successfully.
+2024-09-02T02:33:52.754 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:33:52.812 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:33:52.880 INFO  service - Started process nginx (28236).
+2024-09-02T02:33:52.918 INFO  service - Service started successfully.
+2024-09-02T02:33:53.107 WARN  service - Child process 'nginx (28236)' finished with code 1.
+2024-09-02T02:33:53.734 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:33:53.783 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:33:53.855 INFO  service - Started process nginx (44844).
+2024-09-02T02:33:53.883 INFO  service - Service started successfully.
+2024-09-02T02:36:13.975 INFO  service - Stopping nginx
+2024-09-02T02:36:14.024 INFO  service - Started process nginx (46188).
+2024-09-02T02:36:14.024 DEBUG service - WaitForProcessToExit 44844+46188
+2024-09-02T02:36:14.075 INFO  service - Finished nginx
+2024-09-02T02:36:14.075 INFO  service - Service stopped successfully.
+2024-09-02T02:36:16.011 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:36:16.057 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:36:16.116 INFO  service - Started process nginx (16312).
+2024-09-02T02:36:16.141 INFO  service - Service started successfully.
+2024-09-02T02:36:17.071 INFO  service - Stopping nginx
+2024-09-02T02:36:17.115 INFO  service - Started process nginx (16556).
+2024-09-02T02:36:17.115 DEBUG service - WaitForProcessToExit 16312+16556
+2024-09-02T02:36:17.220 INFO  service - Finished nginx
+2024-09-02T02:36:17.220 INFO  service - Service stopped successfully.
+2024-09-02T02:36:19.115 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:36:19.163 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:36:19.220 INFO  service - Started process nginx (32288).
+2024-09-02T02:36:19.246 INFO  service - Service started successfully.
+2024-09-02T02:36:20.268 INFO  service - Stopping nginx
+2024-09-02T02:36:20.312 INFO  service - Started process nginx (32040).
+2024-09-02T02:36:20.313 DEBUG service - WaitForProcessToExit 32288+32040
+2024-09-02T02:36:20.828 INFO  service - Finished nginx
+2024-09-02T02:36:20.829 INFO  service - Service stopped successfully.
+2024-09-02T02:36:21.315 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:36:21.366 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:36:21.424 INFO  service - Started process nginx (28908).
+2024-09-02T02:36:21.449 INFO  service - Service started successfully.
+2024-09-02T02:36:34.501 INFO  service - Stopping nginx
+2024-09-02T02:36:34.544 INFO  service - Started process nginx (14920).
+2024-09-02T02:36:34.545 DEBUG service - WaitForProcessToExit 28908+14920
+2024-09-02T02:36:34.689 INFO  service - Finished nginx
+2024-09-02T02:36:34.690 INFO  service - Service stopped successfully.
+2024-09-02T02:36:35.355 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:36:35.403 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:36:35.463 INFO  service - Started process nginx (43092).
+2024-09-02T02:36:35.491 INFO  service - Service started successfully.
+2024-09-02T02:36:35.965 INFO  service - Stopping nginx
+2024-09-02T02:36:36.008 INFO  service - Started process nginx (43212).
+2024-09-02T02:36:36.009 DEBUG service - WaitForProcessToExit 43092+43212
+2024-09-02T02:36:36.055 INFO  service - Finished nginx
+2024-09-02T02:36:36.056 INFO  service - Service stopped successfully.
+2024-09-02T02:36:36.517 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:36:36.566 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:36:36.623 INFO  service - Started process nginx (41100).
+2024-09-02T02:36:36.655 INFO  service - Service started successfully.
+2024-09-02T02:36:36.962 INFO  service - Stopping nginx
+2024-09-02T02:36:37.005 INFO  service - Started process nginx (40744).
+2024-09-02T02:36:37.005 DEBUG service - WaitForProcessToExit 41100+40744
+2024-09-02T02:36:37.152 INFO  service - Finished nginx
+2024-09-02T02:36:37.153 INFO  service - Service stopped successfully.
+2024-09-02T02:36:38.234 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:36:38.286 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:36:38.341 INFO  service - Started process nginx (42560).
+2024-09-02T02:36:38.367 INFO  service - Service started successfully.
+2024-09-02T02:37:06.212 INFO  service - Stopping nginx
+2024-09-02T02:37:06.258 INFO  service - Started process nginx (33588).
+2024-09-02T02:37:06.258 DEBUG service - WaitForProcessToExit 42560+33588
+2024-09-02T02:37:06.544 INFO  service - Finished nginx
+2024-09-02T02:37:06.545 INFO  service - Service stopped successfully.
+2024-09-02T02:37:07.158 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:37:07.217 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:37:07.281 INFO  service - Started process nginx (40080).
+2024-09-02T02:37:07.312 INFO  service - Service started successfully.
+2024-09-02T02:37:07.697 INFO  service - Stopping nginx
+2024-09-02T02:37:07.744 INFO  service - Started process nginx (40636).
+2024-09-02T02:37:07.744 DEBUG service - WaitForProcessToExit 40080+40636
+2024-09-02T02:37:07.872 INFO  service - Finished nginx
+2024-09-02T02:37:07.873 INFO  service - Service stopped successfully.
+2024-09-02T02:37:08.866 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:37:08.921 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:37:08.982 INFO  service - Started process nginx (11852).
+2024-09-02T02:37:09.014 INFO  service - Service started successfully.
+2024-09-02T02:37:09.622 WARN  service - Child process 'nginx (11852)' finished with code 1.
+2024-09-02T02:37:10.532 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:37:10.593 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:37:10.655 INFO  service - Started process nginx (28036).
+2024-09-02T02:37:10.681 INFO  service - Service started successfully.
+2024-09-02T02:37:22.790 INFO  service - Stopping nginx
+2024-09-02T02:37:22.837 INFO  service - Started process nginx (36224).
+2024-09-02T02:37:22.838 DEBUG service - WaitForProcessToExit 28036+36224
+2024-09-02T02:37:23.012 INFO  service - Finished nginx
+2024-09-02T02:37:23.013 INFO  service - Service stopped successfully.
+2024-09-02T02:37:59.587 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:37:59.636 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:37:59.698 INFO  service - Started process nginx (256).
+2024-09-02T02:37:59.729 INFO  service - Service started successfully.
+2024-09-02T02:38:00.301 INFO  service - Stopping nginx
+2024-09-02T02:38:00.350 INFO  service - Started process nginx (35104).
+2024-09-02T02:38:00.350 DEBUG service - WaitForProcessToExit 256+35104
+2024-09-02T02:38:00.518 INFO  service - Finished nginx
+2024-09-02T02:38:00.518 INFO  service - Service stopped successfully.
+2024-09-02T02:38:01.875 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:38:01.923 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:38:01.980 INFO  service - Started process nginx (35760).
+2024-09-02T02:38:02.009 INFO  service - Service started successfully.
+2024-09-02T02:38:13.331 INFO  service - Stopping nginx
+2024-09-02T02:38:13.376 INFO  service - Started process nginx (46284).
+2024-09-02T02:38:13.376 DEBUG service - WaitForProcessToExit 35760+46284
+2024-09-02T02:38:13.518 INFO  service - Finished nginx
+2024-09-02T02:38:13.519 INFO  service - Service stopped successfully.
+2024-09-02T02:38:14.048 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:38:14.100 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:38:14.158 INFO  service - Started process nginx (7820).
+2024-09-02T02:38:14.185 INFO  service - Service started successfully.
+2024-09-02T02:38:38.429 INFO  service - Stopping nginx
+2024-09-02T02:38:38.475 INFO  service - Started process nginx (45460).
+2024-09-02T02:38:38.475 DEBUG service - WaitForProcessToExit 7820+45460
+2024-09-02T02:38:38.610 INFO  service - Finished nginx
+2024-09-02T02:38:38.610 INFO  service - Service stopped successfully.
+2024-09-02T02:38:57.179 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:38:57.237 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:38:57.299 INFO  service - Started process nginx (19448).
+2024-09-02T02:38:57.325 INFO  service - Service started successfully.
+2024-09-02T02:38:59.359 INFO  service - Stopping nginx
+2024-09-02T02:38:59.408 INFO  service - Started process nginx (11756).
+2024-09-02T02:38:59.409 DEBUG service - WaitForProcessToExit 19448+11756
+2024-09-02T02:38:59.936 INFO  service - Finished nginx
+2024-09-02T02:38:59.937 INFO  service - Service stopped successfully.
+2024-09-02T02:39:00.393 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:39:00.444 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:39:00.505 INFO  service - Started process nginx (19536).
+2024-09-02T02:39:00.533 INFO  service - Service started successfully.
+2024-09-02T02:39:02.054 INFO  service - Stopping nginx
+2024-09-02T02:39:02.101 INFO  service - Started process nginx (43620).
+2024-09-02T02:39:02.101 DEBUG service - WaitForProcessToExit 19536+43620
+2024-09-02T02:39:02.635 INFO  service - Finished nginx
+2024-09-02T02:39:02.635 INFO  service - Service stopped successfully.
+2024-09-02T02:39:09.698 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:39:09.753 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:39:09.815 INFO  service - Started process nginx (19776).
+2024-09-02T02:39:09.843 INFO  service - Service started successfully.
+2024-09-02T02:39:21.800 INFO  service - Stopping nginx
+2024-09-02T02:39:21.850 INFO  service - Started process nginx (12548).
+2024-09-02T02:39:21.851 DEBUG service - WaitForProcessToExit 19776+12548
+2024-09-02T02:39:22.180 INFO  service - Finished nginx
+2024-09-02T02:39:22.181 INFO  service - Service stopped successfully.
+2024-09-02T02:39:22.951 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:39:23.005 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:39:23.063 INFO  service - Started process nginx (33764).
+2024-09-02T02:39:23.090 INFO  service - Service started successfully.
+2024-09-02T02:39:23.457 INFO  service - Stopping nginx
+2024-09-02T02:39:23.503 INFO  service - Started process nginx (45456).
+2024-09-02T02:39:23.503 DEBUG service - WaitForProcessToExit 33764+45456
+2024-09-02T02:39:23.657 INFO  service - Finished nginx
+2024-09-02T02:39:23.658 INFO  service - Service stopped successfully.
+2024-09-02T02:39:24.294 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:39:24.345 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:39:24.403 INFO  service - Started process nginx (32328).
+2024-09-02T02:39:24.429 INFO  service - Service started successfully.
+2024-09-02T02:39:24.756 INFO  service - Stopping nginx
+2024-09-02T02:39:24.804 INFO  service - Started process nginx (34464).
+2024-09-02T02:39:24.804 DEBUG service - WaitForProcessToExit 32328+34464
+2024-09-02T02:39:24.995 INFO  service - Finished nginx
+2024-09-02T02:39:24.996 INFO  service - Service stopped successfully.
+2024-09-02T02:39:25.608 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:39:25.656 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:39:25.716 INFO  service - Started process nginx (22656).
+2024-09-02T02:39:25.744 INFO  service - Service started successfully.
+2024-09-02T02:39:28.228 INFO  service - Stopping nginx
+2024-09-02T02:39:28.277 INFO  service - Started process nginx (46968).
+2024-09-02T02:39:28.277 DEBUG service - WaitForProcessToExit 22656+46968
+2024-09-02T02:39:28.357 INFO  service - Finished nginx
+2024-09-02T02:39:28.358 INFO  service - Service stopped successfully.
+2024-09-02T02:39:29.270 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:39:29.326 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:39:29.390 INFO  service - Started process nginx (20260).
+2024-09-02T02:39:29.420 INFO  service - Service started successfully.
+2024-09-02T02:39:29.559 WARN  service - Child process 'nginx (20260)' finished with code 1.
+2024-09-02T02:39:30.122 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:39:30.178 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:39:30.251 INFO  service - Started process nginx (37372).
+2024-09-02T02:39:30.287 INFO  service - Service started successfully.
+2024-09-02T02:39:30.525 WARN  service - Child process 'nginx (37372)' finished with code 1.
+2024-09-02T02:39:30.965 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:39:31.015 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:39:31.079 INFO  service - Started process nginx (19204).
+2024-09-02T02:39:31.115 INFO  service - Service started successfully.
+2024-09-02T02:39:31.264 WARN  service - Child process 'nginx (19204)' finished with code 1.
+2024-09-02T02:53:13.726 DEBUG console - Starting WinSW in service mode.
+2024-09-02T02:53:13.775 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T02:53:13.837 INFO  service - Started process nginx (35408).
+2024-09-02T02:53:13.868 INFO  service - Service started successfully.
+2024-09-02T02:59:33.834 INFO  service - Stopping nginx
+2024-09-02T02:59:33.903 INFO  service - Started process nginx (39472).
+2024-09-02T02:59:33.903 DEBUG service - WaitForProcessToExit 35408+39472
+2024-09-02T02:59:34.094 INFO  service - Finished nginx
+2024-09-02T02:59:34.095 INFO  service - Service stopped successfully.
+2024-09-02T03:00:41.150 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:00:41.200 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:00:41.267 INFO  service - Started process nginx (17288).
+2024-09-02T03:00:41.298 INFO  service - Service started successfully.
+2024-09-02T03:02:02.739 INFO  service - Stopping nginx
+2024-09-02T03:02:02.785 INFO  service - Started process nginx (6984).
+2024-09-02T03:02:02.785 DEBUG service - WaitForProcessToExit 17288+6984
+2024-09-02T03:02:03.199 INFO  service - Finished nginx
+2024-09-02T03:02:03.200 INFO  service - Service stopped successfully.
+2024-09-02T03:03:12.064 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:03:12.116 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:03:12.178 INFO  service - Started process nginx (10284).
+2024-09-02T03:03:12.204 INFO  service - Service started successfully.
+2024-09-02T03:03:13.352 INFO  service - Stopping nginx
+2024-09-02T03:03:13.403 INFO  service - Started process nginx (11824).
+2024-09-02T03:03:13.403 DEBUG service - WaitForProcessToExit 10284+11824
+2024-09-02T03:03:13.793 INFO  service - Finished nginx
+2024-09-02T03:03:13.794 INFO  service - Service stopped successfully.
+2024-09-02T03:03:14.630 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:03:14.685 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:03:14.746 INFO  service - Started process nginx (44164).
+2024-09-02T03:03:14.773 INFO  service - Service started successfully.
+2024-09-02T03:03:15.170 WARN  service - Child process 'nginx (44164)' finished with code 1.
+2024-09-02T03:03:15.782 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:03:15.837 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:03:15.904 INFO  service - Started process nginx (17120).
+2024-09-02T03:03:15.938 INFO  service - Service started successfully.
+2024-09-02T03:03:16.055 WARN  service - Child process 'nginx (17120)' finished with code 1.
+2024-09-02T03:03:16.507 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:03:16.556 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:03:16.618 INFO  service - Started process nginx (28620).
+2024-09-02T03:03:16.652 INFO  service - Service started successfully.
+2024-09-02T03:03:16.750 WARN  service - Child process 'nginx (28620)' finished with code 1.
+2024-09-02T03:03:17.185 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:03:17.237 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:03:17.299 INFO  service - Started process nginx (45396).
+2024-09-02T03:03:17.327 INFO  service - Service started successfully.
+2024-09-02T03:03:23.059 WARN  service - Child process 'nginx (45396)' finished with code 1.
+2024-09-02T03:10:56.616 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:10:56.672 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:10:56.732 INFO  service - Started process nginx (31604).
+2024-09-02T03:10:56.760 INFO  service - Service started successfully.
+2024-09-02T03:11:01.594 INFO  service - Stopping nginx
+2024-09-02T03:11:01.641 INFO  service - Started process nginx (18004).
+2024-09-02T03:11:01.641 DEBUG service - WaitForProcessToExit 31604+18004
+2024-09-02T03:11:01.922 INFO  service - Finished nginx
+2024-09-02T03:11:01.922 INFO  service - Service stopped successfully.
+2024-09-02T03:11:03.117 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:11:03.165 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:11:03.217 INFO  service - Started process nginx (42700).
+2024-09-02T03:11:03.246 INFO  service - Service started successfully.
+2024-09-02T03:17:22.697 INFO  service - Stopping nginx
+2024-09-02T03:17:22.743 INFO  service - Started process nginx (1952).
+2024-09-02T03:17:22.744 DEBUG service - WaitForProcessToExit 42700+1952
+2024-09-02T03:17:25.523 INFO  service - Finished nginx
+2024-09-02T03:17:25.524 INFO  service - Service stopped successfully.
+2024-09-02T03:17:26.851 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:17:26.906 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:17:26.967 INFO  service - Started process nginx (39404).
+2024-09-02T03:17:26.992 WARN  service - Child process 'nginx (39404)' finished with code 1.
+2024-09-02T03:17:26.996 INFO  service - Service started successfully.
+2024-09-02T03:17:33.006 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:17:33.058 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:17:33.119 INFO  service - Started process nginx (31852).
+2024-09-02T03:17:33.147 WARN  service - Child process 'nginx (31852)' finished with code 1.
+2024-09-02T03:17:33.150 INFO  service - Service started successfully.
+2024-09-02T03:17:58.425 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:17:58.475 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:17:58.536 INFO  service - Started process nginx (23716).
+2024-09-02T03:17:58.564 WARN  service - Child process 'nginx (23716)' finished with code 1.
+2024-09-02T03:17:58.567 INFO  service - Service started successfully.
+2024-09-02T03:18:00.061 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:18:00.104 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:18:00.159 INFO  service - Started process nginx (44916).
+2024-09-02T03:18:00.183 WARN  service - Child process 'nginx (44916)' finished with code 1.
+2024-09-02T03:18:00.186 INFO  service - Service started successfully.
+2024-09-02T03:18:00.949 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:18:01.003 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:18:01.055 INFO  service - Started process nginx (25256).
+2024-09-02T03:18:01.080 WARN  service - Child process 'nginx (25256)' finished with code 1.
+2024-09-02T03:18:01.083 INFO  service - Service started successfully.
+2024-09-02T03:18:01.835 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:18:01.886 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:18:01.943 INFO  service - Started process nginx (26364).
+2024-09-02T03:18:01.967 WARN  service - Child process 'nginx (26364)' finished with code 1.
+2024-09-02T03:18:01.970 INFO  service - Service started successfully.
+2024-09-02T03:18:02.640 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:18:02.690 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:18:02.749 INFO  service - Started process nginx (44088).
+2024-09-02T03:18:02.776 WARN  service - Child process 'nginx (44088)' finished with code 1.
+2024-09-02T03:18:02.780 INFO  service - Service started successfully.
+2024-09-02T03:18:06.291 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:18:06.339 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:18:06.396 INFO  service - Started process nginx (15056).
+2024-09-02T03:18:06.422 WARN  service - Child process 'nginx (15056)' finished with code 1.
+2024-09-02T03:18:06.426 INFO  service - Service started successfully.
+2024-09-02T03:19:21.940 DEBUG console - Starting WinSW in service mode.
+2024-09-02T03:19:21.998 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T03:19:22.064 INFO  service - Started process nginx (16392).
+2024-09-02T03:19:22.097 WARN  service - Child process 'nginx (16392)' finished with code 1.
+2024-09-02T03:19:22.101 INFO  service - Service started successfully.
+2024-09-02T05:08:31.281 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:08:31.336 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:08:31.396 INFO  service - Started process nginx (37924).
+2024-09-02T05:08:31.427 INFO  service - Service started successfully.
+2024-09-02T05:08:31.820 INFO  service - Stopping nginx
+2024-09-02T05:08:31.863 INFO  service - Started process nginx (21556).
+2024-09-02T05:08:31.864 DEBUG service - WaitForProcessToExit 37924+21556
+2024-09-02T05:08:31.998 INFO  service - Finished nginx
+2024-09-02T05:08:31.999 INFO  service - Service stopped successfully.
+2024-09-02T05:10:17.867 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:10:17.917 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:10:17.975 INFO  service - Started process nginx (44244).
+2024-09-02T05:10:18.003 INFO  service - Service started successfully.
+2024-09-02T05:22:04.686 INFO  service - Stopping nginx
+2024-09-02T05:22:04.742 INFO  service - Started process nginx (25356).
+2024-09-02T05:22:04.743 DEBUG service - WaitForProcessToExit 44244+25356
+2024-09-02T05:22:05.056 INFO  service - Finished nginx
+2024-09-02T05:22:05.057 INFO  service - Service stopped successfully.
+2024-09-02T05:22:10.447 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:22:10.517 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:22:10.589 INFO  service - Started process nginx (29372).
+2024-09-02T05:22:10.630 INFO  service - Service started successfully.
+2024-09-02T05:22:10.752 INFO  service - Stopping nginx
+2024-09-02T05:22:10.870 INFO  service - Started process nginx (30052).
+2024-09-02T05:22:10.871 DEBUG service - WaitForProcessToExit 29372+30052
+2024-09-02T05:22:11.224 INFO  service - Finished nginx
+2024-09-02T05:22:11.225 INFO  service - Service stopped successfully.
+2024-09-02T05:22:12.124 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:22:12.176 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:22:12.237 INFO  service - Started process nginx (36672).
+2024-09-02T05:22:12.270 INFO  service - Service started successfully.
+2024-09-02T05:24:16.737 INFO  service - Stopping nginx
+2024-09-02T05:24:16.782 INFO  service - Started process nginx (33748).
+2024-09-02T05:24:16.782 DEBUG service - WaitForProcessToExit 36672+33748
+2024-09-02T05:24:17.253 INFO  service - Finished nginx
+2024-09-02T05:24:17.254 INFO  service - Service stopped successfully.
+2024-09-02T05:24:19.193 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:24:19.242 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:24:19.300 INFO  service - Started process nginx (8136).
+2024-09-02T05:24:19.328 INFO  service - Service started successfully.
+2024-09-02T05:26:37.170 INFO  service - Stopping nginx
+2024-09-02T05:26:37.214 INFO  service - Started process nginx (38536).
+2024-09-02T05:26:37.215 DEBUG service - WaitForProcessToExit 8136+38536
+2024-09-02T05:26:37.519 INFO  service - Finished nginx
+2024-09-02T05:26:37.520 INFO  service - Service stopped successfully.
+2024-09-02T05:26:39.104 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:26:39.155 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:26:39.215 INFO  service - Started process nginx (16416).
+2024-09-02T05:26:39.245 INFO  service - Service started successfully.
+2024-09-02T05:27:13.862 INFO  service - Stopping nginx
+2024-09-02T05:27:13.910 INFO  service - Started process nginx (43600).
+2024-09-02T05:27:13.910 DEBUG service - WaitForProcessToExit 16416+43600
+2024-09-02T05:27:14.110 INFO  service - Finished nginx
+2024-09-02T05:27:14.110 INFO  service - Service stopped successfully.
+2024-09-02T05:27:45.350 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:27:45.399 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:27:45.456 INFO  service - Started process nginx (31808).
+2024-09-02T05:27:45.482 INFO  service - Service started successfully.
+2024-09-02T05:27:46.425 INFO  service - Stopping nginx
+2024-09-02T05:27:46.467 INFO  service - Started process nginx (43272).
+2024-09-02T05:27:46.467 DEBUG service - WaitForProcessToExit 31808+43272
+2024-09-02T05:27:46.562 INFO  service - Finished nginx
+2024-09-02T05:27:46.563 INFO  service - Service stopped successfully.
+2024-09-02T05:27:58.607 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:27:58.667 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:27:58.732 INFO  service - Started process nginx (45040).
+2024-09-02T05:27:58.767 INFO  service - Service started successfully.
+2024-09-02T05:30:47.800 INFO  service - Stopping nginx
+2024-09-02T05:30:47.843 INFO  service - Started process nginx (42488).
+2024-09-02T05:30:47.844 DEBUG service - WaitForProcessToExit 45040+42488
+2024-09-02T05:30:48.336 INFO  service - Finished nginx
+2024-09-02T05:30:48.337 INFO  service - Service stopped successfully.
+2024-09-02T05:30:53.962 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:30:54.010 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:30:54.068 INFO  service - Started process nginx (28100).
+2024-09-02T05:30:54.094 INFO  service - Service started successfully.
+2024-09-02T05:30:54.794 INFO  service - Stopping nginx
+2024-09-02T05:30:54.837 INFO  service - Started process nginx (16252).
+2024-09-02T05:30:54.837 DEBUG service - WaitForProcessToExit 28100+16252
+2024-09-02T05:30:55.166 INFO  service - Finished nginx
+2024-09-02T05:30:55.166 INFO  service - Service stopped successfully.
+2024-09-02T05:30:56.246 DEBUG console - Starting WinSW in service mode.
+2024-09-02T05:30:56.294 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T05:30:56.355 INFO  service - Started process nginx (11488).
+2024-09-02T05:30:56.381 INFO  service - Service started successfully.
+2024-09-02T16:59:47.117 INFO  service - Stopping nginx
+2024-09-02T16:59:47.161 INFO  service - Started process nginx (46936).
+2024-09-02T16:59:47.161 DEBUG service - WaitForProcessToExit 11488+46936
+2024-09-02T16:59:47.465 INFO  service - Finished nginx
+2024-09-02T16:59:47.466 INFO  service - Service stopped successfully.
+2024-09-02T17:00:02.343 DEBUG console - Starting WinSW in service mode.
+2024-09-02T17:00:02.394 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T17:00:02.453 INFO  service - Started process nginx (26440).
+2024-09-02T17:00:02.483 INFO  service - Service started successfully.
+2024-09-02T17:43:16.141 INFO  service - Stopping nginx
+2024-09-02T17:43:16.185 INFO  service - Started process nginx (6840).
+2024-09-02T17:43:16.186 DEBUG service - WaitForProcessToExit 26440+6840
+2024-09-02T17:43:16.535 INFO  service - Finished nginx
+2024-09-02T17:43:16.536 INFO  service - Service stopped successfully.
+2024-09-02T17:54:09.461 DEBUG console - Starting WinSW in service mode.
+2024-09-02T17:54:09.519 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T17:54:09.584 INFO  service - Started process nginx (22968).
+2024-09-02T17:54:09.613 INFO  service - Service started successfully.
+2024-09-02T17:54:13.988 INFO  service - Stopping nginx
+2024-09-02T17:54:14.034 INFO  service - Started process nginx (33748).
+2024-09-02T17:54:14.035 DEBUG service - WaitForProcessToExit 22968+33748
+2024-09-02T17:54:14.219 INFO  service - Finished nginx
+2024-09-02T17:54:14.219 INFO  service - Service stopped successfully.
+2024-09-02T21:37:53.728 DEBUG console - Starting WinSW in service mode.
+2024-09-02T21:37:53.772 INFO  service - Starting D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe
+2024-09-02T21:37:53.823 INFO  service - Started process nginx (36576).
+2024-09-02T21:37:53.848 INFO  service - Service started successfully.
+2024-09-02T21:37:54.929 INFO  service - Stopping nginx
+2024-09-02T21:37:54.969 INFO  service - Started process nginx (39468).
+2024-09-02T21:37:54.970 DEBUG service - WaitForProcessToExit 36576+39468
+2024-09-02T21:37:55.418 INFO  service - Finished nginx
+2024-09-02T21:37:55.419 INFO  service - Service stopped successfully.

@@ -1,0 +1,11 @@
+
+<service>
+    <id>nginx</id>
+    <name>Nginx Service for sekiro</name>
+    <description>Nginx Service for sekiro</description>
+    <logpath>D:\My_Project\Idea_Project\Python\self_tools\nginx\logs</logpath>
+    <logmode>roll</logmode>
+    <executable>D:\My_Project\Idea_Project\Python\self_tools\nginx\nginx.exe</executable>
+    <startarguments></startarguments>
+    <stoparguments>-s stop</stoparguments>
+</service>
